@@ -6,7 +6,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model_name = "bert-base-multilingual-cased"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModel.from_pretrained(model_name).to(device)
+model = AutoModel.from_pretrained(model_name, output_hidden_states = True).to(device)
 model.eval()
 
 
@@ -23,10 +23,12 @@ def get_cls_embeddings(sentences, batch_size=16):
         
         with torch.no_grad():
             outputs = model(**encoder)
+            hidden_states = outputs.hidden_states #(13 layers of distilBERT)
 
-            cls_embeds = outputs.last_hidden_state[:,0,:]
+            layer_cls = [h[:, 0, :].cpu().numpy() for h in hidden_states] #(b_s, 768)
 
-        all_embeddings.append(cls_embeds.cpu().numpy())
+        batch_embeddings = np.stack(layer_cls, axis = 1)
+        all_embeddings.append(batch_embeddings)
 
 
-    return np.vstack(all_embeddings)
+    return np.concatenate(all_embeddings, axis = 0) #(shape: snts, 13, 768)
