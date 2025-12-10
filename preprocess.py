@@ -133,7 +133,9 @@ def example_run():
     That CSV should at least have the columns:
         sentence, lang, ARG0, ARG1, ARG2, neg, time
     """
-    feature_path = "./data/massive_val_features.csv"
+
+    #Did this for all three datasets separately
+    feature_path = "./data/massive_test_features.csv"
     feature_path = Path(feature_path)
 
     if not feature_path.exists():
@@ -169,11 +171,11 @@ def example_run():
     print("Embeddings shape:", embeddings.shape)  # should be (N, L, H)
 
     # Save CLS embeddings for later use in probe training
-    save_numpy(embeddings, "./data/mbert_val_cls_embeddings.npy")
+    save_numpy(embeddings, "./data/mbert_test_cls_embeddings.npy")
 
     # Save the AMR-based labels (ARG0, ARG1, ARG2, neg, time) as a separate array
     label_arr = df[["ARG0", "ARG1", "ARG2", "neg", "time"]].to_numpy()
-    save_numpy(label_arr, "./data/massive_val_labels.npy")
+    save_numpy(label_arr, "./data/massive_test_labels.npy")
 
 
 if __name__ == "__main__":

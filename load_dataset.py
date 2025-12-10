@@ -170,14 +170,14 @@ if __name__ == "__main__":
     amr_path_train = "./data/amrs-massive-train.txt"  # for train
     amr_path_test = "./data/amrs-massive-test.txt"  # for test
 
-    #df_val = build_dataframe(amr_path_val)
-    #print(df_val.sample(10).to_string())
+    df_val = build_dataframe(amr_path_val)
+    print(df_val.sample(10).to_string())
 
-    # Save as CSV (no extra dependencies needed)
-    #save_dataframe(df_val, "./data/massive_val_features.csv", fmt="csv")
+    Save as CSV (no extra dependencies needed)
+    save_dataframe(df_val, "./data/massive_val_features.csv", fmt="csv")
 
-    # And also save as JSONL (one JSON object per line)
-    #save_dataframe_json(df, "./data/massive_val_features.jsonl")
+    And also save as JSONL (one JSON object per line)
+    save_dataframe_json(df, "./data/massive_val_features.jsonl")
 
     df_train = build_dataframe(amr_path_train)
     #print(df_train.sample(10).to_string())
@@ -186,7 +186,7 @@ if __name__ == "__main__":
     save_dataframe(df_train, "./data/massive_train_features.csv", fmt="csv")
 
     # And also save as JSONL (one JSON object per line)
-    save_dataframe_json(df_train, "./data/massive_triain_features.jsonl")
+    save_dataframe_json(df_train, "./data/massive_train_features.jsonl")
 
 
     df_test = build_dataframe(amr_path_test)
