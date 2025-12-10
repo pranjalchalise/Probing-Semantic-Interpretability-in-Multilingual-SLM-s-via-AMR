@@ -112,38 +112,41 @@ def train_probe(X_train, y_train, X_test, y_test, feature_name: str, layer_idx: 
 
 
 def train_all_probes(
-    embeddings: np.ndarray,
-    labels: np.ndarray,
-    test_size: float = 0.2,
-    random_state: int = 42,
+    train_embeddings: np.ndarray,
+    train_labels: np.ndarray,
+    test_embeddings: np.ndarray,
+    test_labels: np.ndarray,
     metadata: pd.DataFrame = None
 ):
     """
-    Train probes for all (layer, feature) combinations.
+    Train probes for all (layer, feature) combinations using separate train/test splits.
     
     Args:
-        embeddings: (N, L, H) array
-        labels: (N, F) array
-        test_size: fraction of data to use for testing
-        random_state: random seed for reproducibility
+        train_embeddings: (N_train, L, H) array
+        train_labels: (N_train, F) array
+        test_embeddings: (N_test, L, H) array
+        test_labels: (N_test, F) array
         metadata: optional DataFrame with metadata (for language-specific analysis)
     
     Returns:
         results: list of dicts, one per (layer, feature) combination
     """
-    N, L, H = embeddings.shape
-    F = labels.shape[1]
+    N_train, L, H = train_embeddings.shape
+    N_test = test_embeddings.shape[0]
+    F = train_labels.shape[1]
+    
+    # Verify shapes match
+    assert train_embeddings.shape[1] == test_embeddings.shape[1], \
+        "Train and test must have same number of layers"
+    assert train_embeddings.shape[2] == test_embeddings.shape[2], \
+        "Train and test must have same hidden size"
+    assert train_labels.shape[1] == test_labels.shape[1], \
+        "Train and test must have same number of features"
     
     print(f"\nTraining {L} layers × {F} features = {L * F} probes")
-    print(f"Using {1-test_size:.0%} for training, {test_size:.0%} for testing")
+    print(f"Train examples: {N_train}, Test examples: {N_test}")
     
     results = []
-    
-    # Split data once (same split for all probes to ensure fair comparison)
-    indices = np.arange(N)
-    train_idx, test_idx = train_test_split(
-        indices, test_size=test_size, random_state=random_state, shuffle=True
-    )
     
     # Train a probe for each layer and each feature
     for layer_idx in range(L):
@@ -151,21 +154,18 @@ def train_all_probes(
         print(f"\nProcessing {layer_name}...")
         
         # Extract embeddings for this layer: (N, H)
-        layer_embeddings = embeddings[:, layer_idx, :]
+        train_layer_embeddings = train_embeddings[:, layer_idx, :]
+        test_layer_embeddings = test_embeddings[:, layer_idx, :]
         
         for feat_idx, feature_name in enumerate(FEATURE_NAMES):
             # Extract labels for this feature: (N,)
-            feature_labels = labels[:, feat_idx]
-            
-            # Split for this feature
-            X_train = layer_embeddings[train_idx]
-            y_train = feature_labels[train_idx]
-            X_test = layer_embeddings[test_idx]
-            y_test = feature_labels[test_idx]
+            train_feature_labels = train_labels[:, feat_idx]
+            test_feature_labels = test_labels[:, feat_idx]
             
             # Train probe
             result = train_probe(
-                X_train, y_train, X_test, y_test,
+                train_layer_embeddings, train_feature_labels,
+                test_layer_embeddings, test_feature_labels,
                 feature_name, layer_idx
             )
             result["layer_name"] = layer_name
@@ -240,24 +240,37 @@ def create_results_table(df_results: pd.DataFrame):
 def main():
     """
     Main function to run probe training.
-    """
-    # Paths to data files
-    embeddings_path = "./data/mbert_val_cls_embeddings.npy"
-    labels_path = "./data/massive_val_labels.npy"
-    features_path = "./data/massive_val_features.csv"  # optional, for metadata
     
-    # Load data
-    print("Loading data...")
-    embeddings, labels, metadata = load_data(
-        embeddings_path, labels_path, features_path
+    Uses separate train and test splits from the MASSIVE-AMR dataset.
+    Make sure to run load_dataset.py and preprocess.py for both train and test sets first!
+    """
+    # Paths to train data files
+    train_embeddings_path = "./data/mbert_train_cls_embeddings.npy"
+    train_labels_path = "./data/massive_train_labels.npy"
+    train_features_path = "./data/massive_train_features.csv"  # optional, for metadata
+    
+    # Paths to test data files
+    test_embeddings_path = "./data/mbert_test_cls_embeddings.npy"
+    test_labels_path = "./data/massive_test_labels.npy"
+    test_features_path = "./data/massive_test_features.csv"  # optional, for metadata
+    
+    # Load train data
+    print("Loading train data...")
+    train_embeddings, train_labels, train_metadata = load_data(
+        train_embeddings_path, train_labels_path, train_features_path
+    )
+    
+    # Load test data
+    print("Loading test data...")
+    test_embeddings, test_labels, test_metadata = load_data(
+        test_embeddings_path, test_labels_path, test_features_path
     )
     
     # Train all probes
     results = train_all_probes(
-        embeddings, labels,
-        test_size=0.2,
-        random_state=42,
-        metadata=metadata
+        train_embeddings, train_labels,
+        test_embeddings, test_labels,
+        metadata=train_metadata  # or test_metadata, or combine them
     )
     
     # Save results

@@ -40,8 +40,14 @@ def load_amr_text(path: str):
     data = []
     path = Path(path)
 
-    with path.open('r', encoding='utf8') as f:
-        content = f.read().strip()
+    # Try UTF-8 first, but handle encoding errors gracefully
+    try:
+        with path.open('r', encoding='utf-8', errors='replace') as f:
+            content = f.read().strip()
+    except UnicodeDecodeError:
+        # Fallback: try latin-1 which can decode any byte
+        with path.open('r', encoding='latin-1', errors='replace') as f:
+            content = f.read().strip()
 
     # Each entry is one example, separated by a blank line
     entries = content.split("\n\n")
@@ -160,13 +166,34 @@ def save_dataframe_json(df: pd.DataFrame, out_path: str):
 
 
 if __name__ == "__main__":
-    amr_path = "./data/amrs-massive-val.txt"
+    amr_path_val = "./data/amrs-massive-val.txt"
+    amr_path_train = "./data/amrs-massive-train.txt"  # for train
+    amr_path_test = "./data/amrs-massive-test.txt"  # for test
 
-    df = build_dataframe(amr_path)
-    print(df.sample(10).to_string())
+    #df_val = build_dataframe(amr_path_val)
+    #print(df_val.sample(10).to_string())
 
     # Save as CSV (no extra dependencies needed)
-    save_dataframe(df, "./data/massive_val_features.csv", fmt="csv")
+    #save_dataframe(df_val, "./data/massive_val_features.csv", fmt="csv")
 
     # And also save as JSONL (one JSON object per line)
-    save_dataframe_json(df, "./data/massive_val_features.jsonl")
+    #save_dataframe_json(df, "./data/massive_val_features.jsonl")
+
+    df_train = build_dataframe(amr_path_train)
+    #print(df_train.sample(10).to_string())
+
+    # Save as CSV (no extra dependencies needed)
+    save_dataframe(df_train, "./data/massive_train_features.csv", fmt="csv")
+
+    # And also save as JSONL (one JSON object per line)
+    save_dataframe_json(df_train, "./data/massive_triain_features.jsonl")
+
+
+    df_test = build_dataframe(amr_path_test)
+    print(df_test.sample(10).to_string())
+
+    # Save as CSV (no extra dependencies needed)
+    save_dataframe(df_test, "./data/massive_test_features.csv", fmt="csv")
+
+    # And also save as JSONL (one JSON object per line)
+    save_dataframe_json(df_test, "./data/massive_test_features.jsonl")
