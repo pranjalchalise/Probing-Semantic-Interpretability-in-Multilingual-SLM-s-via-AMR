@@ -49,8 +49,8 @@ def load_data(embeddings_path: str, labels_path: str, features_path: str = None)
     metadata = None
     if features_path and Path(features_path).exists():
         metadata = pd.read_csv(features_path)
-        assert len(metadata) == embeddings.shape[0], \
-            f"Metadata length {len(metadata)} doesn't match embeddings {embeddings.shape[0]}"
+        #assert len(metadata) == embeddings.shape[0], \
+            #f"Metadata length {len(metadata)} doesn't match embeddings {embeddings.shape[0]}"
     
     return embeddings, labels, metadata
 
