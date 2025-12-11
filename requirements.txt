@@ -10,3 +10,7 @@ transformers>=4.30.0
 
 # Machine learning (for train_probes.py)
 scikit-learn>=1.3.0
+
+# Visualization (for language analysis)
+matplotlib>=3.5.0
+seaborn>=0.12.0
