@@ -1,0 +1,1274 @@
+sentence,lang,ARG0,ARG1,ARG2,neg,time
+is equal to,en-US,0,0,0,0,0
+use in a sentence,en-US,1,0,0,0,0
+what is the exchange rate between u. s. d. and euro,en-US,0,1,1,0,0
+is chase doing good,en-US,0,1,0,1,0
+tell me distance between sun and moon,en-US,1,1,1,0,0
+what are the coordinates of everest,en-US,0,1,1,0,0
+need geographic information about italy,en-US,0,1,0,0,0
+what's the stock of apple,en-US,0,0,0,0,0
+tell me when martin luther king junior was born,en-US,1,1,1,0,1
+stock price for google,en-US,0,1,1,0,0
+director who direct an act,en-US,1,1,0,0,0
+what is coral made of,en-US,0,1,1,0,0
+tell me about it,en-US,1,1,1,0,0
+find route,en-US,1,1,0,0,0
+what is the current status of resolving general relativity with quantum physics,en-US,0,1,1,0,1
+find area,en-US,1,1,0,0,0
+what's the capital of tanzania,en-US,1,1,1,0,0
+which country would end up converting the most money out of a thousand dollars us,en-US,0,1,1,0,0
+what did the south n. p. close out at,en-US,0,1,1,0,0
+where maradona lives now,en-US,1,0,0,0,0
+current exchange rates for u. k. pound,en-US,0,1,1,0,1
+what's the change in best buy stick,en-US,0,1,0,0,0
+what was the last movie will smith was in,en-US,0,1,1,0,0
+is keith richards dead,en-US,0,1,0,1,0
+what is the length of amazon river,en-US,0,1,1,0,0
+who is rihanna dating right now,en-US,1,1,0,0,1
+what are the measurements of a rubix cube,en-US,0,1,0,0,0
+what is the square root of nine,en-US,0,1,1,0,0
+what is the prevailing exchange rate us versus indian rupees,en-US,0,1,1,0,0
+what is the exchange rate between money i'm the united states and switzerland,en-US,0,1,1,0,0
+what's the crime rate in chicago,en-US,0,1,1,0,0
+what is the price of amd on the stock market,en-US,0,1,1,0,0
+what is famous in indranagar,en-US,0,1,0,0,0
+what is a by,en-US,0,0,0,0,0
+what is motorola going for today,en-US,0,1,0,0,1
+how much is us dollar against rupee,en-US,0,1,1,0,0
+how many bones does a human body have,en-US,0,1,1,0,0
+current price of google please,en-US,0,1,1,0,1
+what's the currency exchange rate for china,en-US,0,1,1,0,0
+tell me about jaipur,en-US,1,1,1,0,0
+list albums of rihana,en-US,1,1,0,0,0
+tell me what the geography is like in this region,en-US,1,1,1,0,0
+what's the scenery like in morocco,en-US,0,1,1,0,0
+what's new with the stock market,en-US,0,1,1,0,0
+when was madonna born,en-US,0,1,0,0,1
+please give height of lindsey lohan,en-US,0,1,0,0,0
+how old is christie brinkley,en-US,0,0,0,0,0
+notify me when g. b. p. to u. s. d. rate as i expected,en-US,1,1,1,0,1
+what time zone is in cuba,en-US,0,1,1,0,0
+two by two is,en-US,0,1,1,0,0
+what would be the exchange rate of currency in japan,en-US,0,1,1,0,0
+what is the longest river in the world,en-US,0,1,1,0,0
+how much money did will ferrel make for his last movie,en-US,1,1,1,0,0
+olly where do the rocky mountains start,en-US,0,1,0,0,0
+how far away is the sun,en-US,0,1,0,0,0
+please tell me what is the formula for the perimeter of a rectangle,en-US,1,1,1,0,0
+google,en-US,0,0,0,0,0
+convert five s. d. to rials,en-US,1,1,1,0,0
+what is the distance to the grand canyon,en-US,0,1,0,0,0
+show me the answer for this problem two hundred and forty six plus six hundred and fifty four,en-US,0,1,1,0,0
+how old is jim carrey,en-US,0,0,0,0,0
+how tall is channin tatum,en-US,0,1,1,0,0
+what's going to be the forecast tomorrow for outer nowhereville,en-US,0,1,0,0,1
+what is the difference in value of a dollar and a peso,en-US,0,1,1,0,0
+what is leonardo dicaprio's networth,en-US,0,1,1,0,0
+can you tell me the exchange rate for canadian currency,en-US,1,1,1,0,0
+please summarize the latest george r. r. martin ice and fire book,en-US,1,1,0,0,0
+olly compare the stock prices for nintendo and sony and tell me which ones are better,en-US,1,1,1,0,0
+tell me about michael jackson,en-US,1,1,1,0,0
+what is the answer to ten,en-US,0,1,1,0,0
+stock price f. flat,en-US,0,1,1,0,0
+how much did facebook stock increase last night,en-US,0,1,1,0,1
+when is madonna's birthday,en-US,0,1,0,0,1
+solve the calculation,en-US,1,1,0,0,0
+give me everything you know about bob dean,en-US,1,1,1,0,0
+what is a geographic fact in this region,en-US,0,0,0,0,0
+how old is tony bennett,en-US,0,0,0,0,0
+detail for stock price,en-US,0,1,1,0,0
+let me know up and down in stock price of this company stock,en-US,1,1,1,0,0
+what's the exchange between u. s. d. and cad,en-US,0,1,1,0,0
+when was einstein's birthday,en-US,0,1,0,0,1
+please define this,en-US,0,1,1,0,0
+get info,en-US,0,0,1,0,0
+please look up exchange between us and mexco,en-US,1,1,0,0,0
+where can i find japan,en-US,1,1,0,0,0
+show exchange rate of u. s. d. versus euro,en-US,1,1,1,0,0
+what kind of cloth eastern people wear,en-US,1,1,0,0,0
+when's mark lanegan's next album out,en-US,0,1,1,0,0
+what is the exchange rate with in one british pound,en-US,0,1,1,0,0
+did prince have children,en-US,1,1,1,0,0
+i need some details about bruce lee please assist,en-US,1,1,1,0,0
+what is the gross domestic product of us,en-US,1,1,0,0,0
+show me the demographic growth rate of switzerland in the last ten years,en-US,1,1,1,0,1
+download certain vocab,en-US,1,1,0,0,0
+who is the president of america,en-US,1,1,1,0,0
+open stocks,en-US,1,1,0,0,0
+list stock price for this company stock,en-US,1,1,1,0,0
+what is the size of the united states,en-US,0,1,1,0,0
+i will be at pizza hut in ten minutes and will stay there for next forty minutes arrange an uber for me that can drop me home,en-US,1,1,1,0,1
+use this word in a sentence,en-US,1,1,1,0,0
+when is elvis birthday,en-US,0,1,0,0,1
+help me in knowing the background of person morgan freeman,en-US,1,1,1,0,0
+what is i. b. m.'s stock worth,en-US,0,1,1,0,0
+what is the geographical significance of india,en-US,1,1,0,0,0
+is a peso worth more than a dollar,en-US,0,1,1,1,0
+what is taylor swift's birthday,en-US,0,1,0,0,1
+person by birthday,en-US,1,1,0,0,1
+olly what is the exchange rate between the us dollar and the aus dollar,en-US,0,1,1,0,0
+is black sea real,en-US,0,1,0,1,0
+tell me which politician is being investigated,en-US,1,1,1,0,0
+what states border new hampshire,en-US,0,1,1,0,0
+west,en-US,0,0,0,0,0
+where is justin beiber from,en-US,0,1,1,0,0
+where is the statue of liberty,en-US,0,1,1,0,0
+when was trump born,en-US,0,1,0,0,1
+how many bots are in a dollar,en-US,0,1,1,0,0
+where is place,en-US,0,1,1,0,0
+what is the boiling point of water,en-US,0,1,0,0,0
+how many people live in los angeles,en-US,1,0,0,0,0
+what is the largest active volcano on earth,en-US,1,1,1,0,0
+current forex rates,en-US,1,0,1,0,1
+when is the next lakers game,en-US,0,1,1,0,0
+is the pound up or down against the dollar,en-US,0,1,1,0,0
+please find today's stock prices for samsung company,en-US,1,1,1,0,1
+when was the us got freedom,en-US,0,1,0,0,1
+calculate the resistance of this resistor,en-US,1,1,0,0,0
+what is hair made up of,en-US,1,1,0,0,0
+alexa give me everything you know about bob dean,en-US,1,1,1,0,0
+is it better to invest or save,en-US,0,1,1,0,0
+who is lenin,en-US,0,0,0,0,0
+who assassinated lincoln,en-US,1,1,0,0,0
+can you really see russia from alaska,en-US,1,1,0,1,0
+person name,en-US,0,1,1,0,0
+what is the us dollar to euro exchange rate,en-US,0,1,1,0,0
+how much of the earth is made up of water,en-US,1,1,0,0,0
+synonyms,en-US,0,0,0,0,0
+what is a stock price of tata,en-US,0,1,1,0,0
+what is two plus four,en-US,0,1,1,0,0
+how old is trump,en-US,0,0,0,0,0
+how are stocks for google,en-US,0,0,0,0,0
+tell me everything about albert einstein,en-US,1,1,1,0,0
+what is the biggest city in the world,en-US,0,1,1,0,0
+where was the last aerosmith concert,en-US,0,1,1,0,0
+is eddie murphy still alive,en-US,1,0,0,1,0
+what is two hundred divided by ten,en-US,0,1,1,0,0
+what are the longest rivers in the world,en-US,0,1,1,0,0
+what is trump's approval rating,en-US,0,1,1,0,0
+for how much can we exchange us dollar for indian rupee,en-US,0,1,1,0,0
+how tall is frank goggins,en-US,0,1,1,0,0
+how is jennifer garner's career doing,en-US,0,1,1,0,0
+how many euros for one u. s. d.,en-US,0,1,1,0,0
+what is the capital of denmark,en-US,1,1,1,0,0
+for what is famous ellen degeneres,en-US,0,1,1,0,0
+geography melbourne,en-US,0,0,0,0,0
+who is arnold schwarzenegger,en-US,0,0,0,0,0
+where was bill clinton born,en-US,0,1,0,0,0
+what does a basketball feel like,en-US,0,1,1,0,0
+how many miles is it between illinois and louisiana,en-US,0,1,1,0,0
+i want to know the result of twenty is to two,en-US,1,1,1,0,0
+what is the square root of thirty four,en-US,0,1,1,0,0
+how tall is mel gibson,en-US,0,1,1,0,0
+what is the capital of nigeria,en-US,1,1,1,0,0
+where are the rocky mountains located,en-US,0,1,1,0,0
+can you do nine plus two,en-US,0,1,1,0,0
+tell me the exchange rate for the yen,en-US,1,1,1,0,0
+how much is one plus one,en-US,0,1,1,0,0
+what are the tallest mountains in america,en-US,0,1,1,0,0
+stock price,en-US,0,1,1,0,0
+what is the current stock price of samsung,en-US,0,1,1,0,1
+what is the height of monali thakur,en-US,0,1,0,0,0
+why is the sky blue,en-US,1,1,0,0,0
+compare the stock prices for nintendo and sony and tell me which ones are better,en-US,0,1,1,0,0
+what is the current share value for m. s. n. b. c.,en-US,0,1,1,0,1
+what price google up to,en-US,0,1,1,0,0
+where does sophia vergara live,en-US,1,0,0,0,0
+find exchange rate for u. s. d. to euro,en-US,1,1,1,0,0
+what is the most current exchange rate in china,en-US,0,1,1,0,0
+tell me when obama was born,en-US,0,1,0,0,1
+show me the records of sachin tendulkar,en-US,1,1,1,0,0
+what is the least tornado prone state in the entire us,en-US,0,1,1,0,0
+what is the deepest point on earth,en-US,0,1,1,0,0
+tell me which stocks were the biggest gainers in stock market nasdaq today,en-US,1,1,1,0,1
+how old is rue mcclanahan,en-US,0,0,0,0,0
+how high is pikes peak,en-US,0,1,0,0,0
+what brand hair spray does donald trump use,en-US,1,1,1,0,0
+what is the current stock rate of facebook,en-US,0,1,1,0,1
+what is population per mile in asia,en-US,0,1,1,0,0
+what is the linear equation,en-US,0,1,0,0,0
+what is the worlds record for the longest head of hair,en-US,0,1,1,0,0
+what was elvis presley's birthday,en-US,0,1,0,0,1
+what's the exchange rates,en-US,0,1,1,0,0
+what about ashwin,en-US,0,0,0,0,0
+what percentage of the us population is related to the english royal bloodline in some way,en-US,1,1,1,0,0
+how much is a stock of apple worth,en-US,0,1,1,0,0
+does miley cyrus have any siblings,en-US,1,1,1,1,0
+is steph curry married,en-US,0,1,0,1,0
+when was born abraham lincoln,en-US,0,1,0,0,1
+what does one u. s. d. equal in aus,en-US,0,1,1,0,0
+how many calories is in an apple,en-US,0,1,1,0,0
+let me know about the exchange rate of rupee to dirham,en-US,1,1,1,0,0
+what is the exchange rate between the dollar and the euro currently,en-US,0,1,1,0,1
+when did elvis die,en-US,0,1,0,0,1
+answer the equation eight times seven,en-US,0,1,1,0,0
+get me new definition,en-US,1,1,0,0,0
+alexa i would like my to tell me the trend on foreign exchange rates,en-US,0,1,1,0,0
+what type of pant is a culotte,en-US,0,0,0,0,0
+find map,en-US,1,1,0,0,0
+how is shell south stock doing today,en-US,0,1,1,0,1
+how many states have the death penalty,en-US,0,1,1,0,0
+ten percentages of hundred,en-US,0,1,1,0,0
+what is justin bieber's birthday,en-US,0,1,0,0,1
+how many pesos can i get for a dollar right now,en-US,0,1,1,0,1
+how many oscars has won meryl streep,en-US,1,1,1,0,0
+keep me updated on stock market prices,en-US,1,1,1,0,0
+have stocks gone up or down today for walmart,en-US,0,1,0,0,1
+what is the stock value of google,en-US,0,1,1,0,0
+how old is hugh jackman,en-US,0,0,0,0,0
+how many times has adel gone diamond,en-US,0,1,1,0,0
+please show me the exchange rate between the dollar and the yen,en-US,1,1,1,0,0
+what is meryl streep famous for,en-US,0,1,1,0,0
+how old is chuck norris,en-US,0,0,0,0,0
+what is the current stock price for hasbro,en-US,0,1,1,0,1
+how old is morgan freeman,en-US,0,0,0,0,0
+how hilly is it in sacramento,en-US,0,0,0,0,0
+how did michael jackson die,en-US,1,1,0,0,0
+high stock price,en-US,0,1,1,0,0
+when was jamie fox born,en-US,0,1,0,0,1
+what is the netflix stock price,en-US,0,1,1,0,0
+how tall is trevor noah,en-US,0,1,1,0,0
+tell me summary forecast microsoft stock forecast to thirty days ahead,en-US,0,1,0,0,1
+who is celebrity,en-US,0,0,0,0,0
+how old is kim kardashian,en-US,0,0,0,0,0
+where are the rocky mountains,en-US,0,1,1,0,0
+what is the distance between new york and berlin,en-US,0,1,1,0,0
+how much is one dollar in pounds,en-US,0,1,1,0,0
+how much is indian rupee going against u. s. dollar,en-US,0,1,1,0,0
+how many teeth does ryan reynolds have,en-US,0,1,1,0,0
+add five plus eighteen minus four please,en-US,0,1,1,0,0
+what is the capital of washington,en-US,1,1,1,0,0
+who won the last five n. c. a. a. men's basketball tournament,en-US,1,1,0,0,0
+distance to local landmarks,en-US,0,1,0,0,0
+what awards did erica grebe win last night,en-US,1,1,1,0,1
+what is the price of starbuck's stock,en-US,0,1,1,0,0
+how old is david bowie,en-US,0,0,0,0,0
+who played harry potter in the films,en-US,1,1,0,0,0
+where does janet jackson live,en-US,1,0,0,0,0
+exchanges rates any problems,en-US,0,1,0,1,0
+what is the difference between roman and grigorean calendar,en-US,0,1,1,0,0
+describe the current state of politics,en-US,1,1,0,0,1
+just let me know the population of india,en-US,1,1,1,0,0
+age of brad pitt,en-US,0,0,0,0,0
+dollar rate at present,en-US,0,1,1,0,1
+how much is one american dollars worth in england,en-US,0,1,1,0,0
+how much is the dollar worth in canada,en-US,0,1,1,0,0
+how many grams are there for a cup of butter,en-US,0,1,1,0,0
+olly how much can chris helmsworth bench press,en-US,1,1,0,0,0
+please give me detail of one yen equals dollar,en-US,1,1,1,0,0
+where is yellowstone,en-US,0,1,1,0,0
+is willie nelson still alive,en-US,1,0,0,1,0
+what is the capital of maryland,en-US,1,1,1,0,0
+explain the geographical location of india,en-US,1,1,0,0,0
+how much is one hundred and thirty six plus three hundred and eighty seven,en-US,0,1,1,0,0
+explain the book of daniel to me,en-US,1,1,1,0,0
+where is nayagara falls located,en-US,0,1,1,0,0
+how much is an euro worth,en-US,0,1,1,0,0
+may i have a list of five star hotels in paris,en-US,1,1,0,0,0
+tell me the largest ocean in the world,en-US,1,1,1,0,0
+how old is jennifer garner,en-US,0,0,0,0,0
+how old is madonna,en-US,0,0,0,0,0
+alexa i've got dollars for the month how much can i spend every day this month,en-US,1,1,1,0,0
+give me the average five year stock price of home depot,en-US,0,1,1,0,0
+who has won the most number of oscars ever,en-US,1,1,0,0,1
+show stock of goog,en-US,1,1,0,0,0
+what is the answer to two plus two,en-US,0,1,1,0,0
+give me the opening stock price of acer computers,en-US,0,1,1,0,1
+stock prices at walmart,en-US,0,1,1,0,0
+what is the make up of the chair,en-US,1,1,0,0,0
+find the meaning,en-US,1,1,1,0,0
+what movies is kevin spacey in,en-US,0,1,1,0,0
+where is the south pole,en-US,0,1,1,0,0
+consequences to actions,en-US,0,1,1,0,0
+where is the grand canyon,en-US,0,1,1,0,0
+i want to figure out the stock on microsoft,en-US,1,1,0,0,0
+stock company name,en-US,0,1,1,0,0
+what's two plus two,en-US,0,1,1,0,0
+what is the stock price of nike today,en-US,0,1,1,0,1
+how is i. b. m. doing,en-US,1,0,0,0,0
+what is four plus five,en-US,0,1,1,0,0
+how have megatel shares done last week,en-US,1,0,0,0,1
+what is the current exchange rate with the g. b. p.,en-US,0,1,1,0,1
+what is the population of russia,en-US,0,1,1,0,0
+is one divisible by three,en-US,0,1,1,1,0
+what character does chris evans play,en-US,1,1,0,0,0
+currency exchange rates,en-US,0,1,1,0,0
+who was the twenty fifth president of the united states of america,en-US,1,1,1,0,0
+who is the better half of obama,en-US,0,1,1,0,0
+how much does one share of stock in lego cost,en-US,0,1,1,0,0
+are the falklands in south america,en-US,0,1,1,1,0
+describe,en-US,1,0,0,0,0
+how much is the canadian dollar worth versus u. s. dollar,en-US,0,1,1,0,0
+what is s. d. in francs,en-US,0,1,1,0,0
+show conversion rate of u. s. d. and inr,en-US,1,1,1,0,0
+open internet,en-US,1,1,0,0,0
+is barrow alaska above freezing during the year,en-US,0,1,1,1,1
+how many three are available in twenty seven,en-US,0,1,1,0,0
+suffering consequences,en-US,0,1,0,0,0
+give me the exchange rate between united states dollar and japanese yen,en-US,1,1,1,0,0
+what is the difference between yesterday's and today's stock prices for walmart,en-US,0,1,1,0,1
+what's the ratio of value of the indian rupee and a u. s. dollar,en-US,0,1,1,0,0
+what was george eliot's first november el,en-US,0,0,0,0,0
+what is the cost of iphone seven,en-US,0,1,1,0,0
+largest animal,en-US,0,1,1,0,0
+how old is dolly parton,en-US,0,0,0,0,0
+what's the sum of the two numbers four and six,en-US,0,1,1,0,0
+where is the hottest place on earth,en-US,0,1,1,0,0
+please tell me how many days in a leap year,en-US,1,1,1,0,0
+can you list off the top ten singles this week,en-US,1,1,0,0,1
+how much indian rupees per u. s. d. today,en-US,0,1,1,0,1
+what is denzel washington's next movie,en-US,0,1,0,0,0
+give the stock price details of motorolla,en-US,0,1,1,0,0
+given me the exchange rates between u. s. d. and cad,en-US,0,1,1,0,0
+who was the current prime minister of britain,en-US,1,1,1,0,1
+how long is the nile,en-US,0,1,1,0,0
+tell me the profession of celebrity,en-US,1,1,1,0,0
+how tall is brad pitt,en-US,0,1,1,0,0
+where is the statue of liberty located,en-US,0,1,1,0,0
+what age is britney spears,en-US,0,0,0,0,0
+divide two hundred by four,en-US,0,1,1,0,0
+just let me know the area of the asian continent,en-US,1,1,1,0,0
+solution,en-US,0,0,0,0,0
+is emma stone single,en-US,0,1,0,1,0
+tell me the story of ramanujan and his mathematical journey,en-US,1,1,1,0,0
+definition xy,en-US,0,1,1,0,0
+give me the stock price of sony,en-US,0,1,1,0,0
+wikipedia page about sean connery,en-US,0,0,0,0,0
+i would like if will be smart and intelligent in way it will be familiar with me and recognize the way i like the result will be,en-US,1,1,1,0,0
+how many rivers are there in europe,en-US,0,1,1,0,0
+how is the stock for compaq doing,en-US,1,0,0,0,0
+what shape is a ball,en-US,0,1,1,0,0
+list the latest apple stock prices,en-US,1,1,1,0,0
+what's the dollar's exchange rate with the euro,en-US,0,1,1,0,0
+what's euro u. s. d. right now,en-US,0,1,1,0,1
+is the dollar stronger than the pound,en-US,0,1,1,1,0
+tell me about sean connery,en-US,1,1,1,0,0
+could you please confirm if leonardo is married,en-US,1,1,0,1,0
+what are the oil prices like today for a barrel of crude oil,en-US,0,1,1,0,1
+who is jennifer aniston married to,en-US,0,1,1,0,0
+give me the opening stock price of intel today,en-US,1,1,1,0,1
+what is the square root of forty two,en-US,0,1,1,0,0
+what does celebrity do,en-US,1,1,0,0,0
+how many continents are there,en-US,0,1,1,0,0
+tell me which mutual funds have maximum yearly returns,en-US,1,1,1,0,0
+define ten,en-US,1,0,0,0,0
+u. s. d. to g. b. p.,en-US,0,1,1,0,0
+how much does an orange weigh,en-US,0,1,0,0,0
+show bio of rihana,en-US,1,1,0,0,0
+how many yen for each dollar,en-US,0,1,1,0,0
+what is the biggest city in new hampshire,en-US,0,1,1,0,0
+what is the population of new york,en-US,0,1,1,0,0
+what is geographic value of great volcano,en-US,0,1,1,0,0
+what is the current exchange rate for yen to euros,en-US,0,1,1,0,1
+compare more of countries,en-US,1,1,0,0,0
+who are the greatest hip hop artists,en-US,0,1,1,0,0
+tell me everything you know about sloths,en-US,1,1,1,0,0
+dolly parton biography,en-US,0,0,0,0,0
+if i have fifty dollars and spend twenty four how many dollars will i have left,en-US,1,1,1,0,0
+how much is the dollar verus the pound,en-US,0,1,1,0,0
+what is this,en-US,0,0,0,0,0
+what is two hundred divided by thirteen,en-US,0,1,1,0,0
+define xy,en-US,1,1,0,0,0
+who is the person behind the song of taylor swift back to december,en-US,0,1,1,0,0
+tell me lexmark's current stock price,en-US,0,1,1,0,1
+what you know about john abraham lincon,en-US,1,1,0,0,0
+when did prince die,en-US,0,1,0,0,1
+to compare in people,en-US,0,1,0,0,0
+alexa tell me the largest ocean in the world,en-US,1,1,1,0,0
+olly where did the first americans settle,en-US,1,0,0,0,0
+what is the lowest microsoft stock price today,en-US,0,1,1,0,1
+what does the word labyrinth mean,en-US,0,1,1,0,0
+what is six minus four,en-US,0,1,1,0,0
+what is the capitol of west virginia,en-US,1,1,1,0,0
+please find out the share price of infy in nasdaq,en-US,1,1,1,0,0
+list the current price of microsoft shares,en-US,1,1,1,0,1
+is michael jackson really dead,en-US,0,1,0,1,0
+when was frank sinatra born,en-US,0,1,0,0,1
+check info on someone,en-US,1,1,0,0,0
+how old is brad pitt,en-US,0,0,0,0,0
+how big is japan,en-US,0,1,1,0,0
+give me the stock price of intel,en-US,1,1,1,0,0
+how far is florida from north carolina,en-US,0,1,1,0,0
+how much does one euro cost in rupees,en-US,0,1,1,0,0
+please give me information on michael jackson,en-US,0,0,0,0,0
+what is the going rate for wells fargo stock,en-US,0,1,1,0,0
+google definition for me,en-US,1,1,1,0,0
+how many sides are on a pentagon,en-US,0,1,1,0,0
+where did amal clooney go to college,en-US,1,1,0,0,0
+where is botswana,en-US,0,1,1,0,0
+tell me what the product of eighteen and thirty one is,en-US,0,1,1,0,0
+ten plus y.,en-US,0,1,1,0,0
+which is the smallest island in the world,en-US,0,1,1,0,0
+who is the first president in u. s. a.,en-US,1,1,1,0,0
+who is the current prime minister of russia,en-US,1,1,1,0,1
+give me today's market trends for panasonic,en-US,0,1,1,0,1
+who is currently the oldest living person in the world,en-US,1,1,1,0,1
+is leonardo married,en-US,0,1,0,1,0
+what is the name of the tallest man,en-US,0,1,1,0,0
+how much is the us dollar versus the pound,en-US,0,1,1,0,0
+what was martin luther kings birthday,en-US,0,1,0,0,1
+tell me about mount rushmore,en-US,1,1,1,0,0
+which was the first satellite to be launched by nasa,en-US,1,1,0,0,0
+what is the stock price of amazon,en-US,0,1,1,0,0
+what is the location of kentucky,en-US,0,1,1,0,0
+where is trump from,en-US,0,1,1,0,0
+where is the nearest river,en-US,0,1,1,0,0
+how many oceans are there in the world,en-US,0,1,1,0,0
+when was bryan adams born,en-US,0,1,0,0,1
+how tall are giraffes,en-US,0,1,1,0,0
+could you give me the exact rate for dow nifty futures,en-US,0,1,1,0,0
+give me the exchange rate between united states dollar and canadian dollar,en-US,0,1,1,0,0
+how old is miley cyrus,en-US,0,0,0,0,0
+how old is tom hanks,en-US,0,0,0,0,0
+why did gotse shoot mahatma gandhi,en-US,1,1,1,0,0
+how many keys are on a piano,en-US,0,1,1,0,0
+what is dolly parton's birthday,en-US,0,1,0,0,1
+how tall is mount everest,en-US,0,1,1,0,0
+figure out what percentage thirty is of one hundred and sixty three,en-US,0,1,1,0,0
+when is saint patrick's day,en-US,0,1,0,0,1
+what is four plus four,en-US,0,1,1,0,0
+who is the most popular american actress,en-US,1,1,1,0,0
+how tall is madonna,en-US,0,1,1,0,0
+tell me billy crytals address,en-US,0,1,1,0,0
+currency exchange,en-US,0,1,0,0,0
+how many miles is it from los angeles california to austin texas,en-US,0,1,1,0,0
+could you describe that object please,en-US,1,1,0,0,0
+is adele going to go on tour,en-US,1,0,0,1,0
+how many tablespoons are there in a cup,en-US,0,1,1,0,0
+what is the lowest population per square mile in africa,en-US,0,1,1,0,0
+find brad pitt's age,en-US,1,1,1,0,0
+tallest building,en-US,0,1,1,0,0
+what is the temperature right now in new york,en-US,0,0,0,0,1
+what's ten percent off forty dollars,en-US,0,1,1,0,0
+can you get me the route to chicago before midnight,en-US,1,1,1,0,1
+why are whales big,en-US,1,1,0,0,0
+how big is the empire state building,en-US,0,1,1,0,0
+at what age michael phelps got married,en-US,0,1,1,0,1
+what is two times two,en-US,0,1,1,0,0
+tell me where steve jobs was born,en-US,1,1,1,0,0
+is the celebrity single or married,en-US,0,1,0,0,0
+four plus five equals nine,en-US,0,1,0,0,0
+what is the population of florida,en-US,0,1,1,0,0
+tell me keywords about usain bolt,en-US,1,1,1,0,0
+how did paris hilton become famous,en-US,0,1,1,0,0
+what is the factorial of ten,en-US,0,1,1,0,0
+list albums of rihana,en-US,1,1,0,0,0
+info on lisa ann please,en-US,0,0,0,0,0
+how much is remaining after subtracting four from eight,en-US,0,1,1,0,1
+how is coca-cola stock doing today,en-US,1,0,0,0,1
+how old are kim kardashian's children,en-US,1,1,1,0,0
+what's the current price of mcdonalds stock,en-US,0,1,1,0,1
+what is the radius of the biggest crater on earth,en-US,0,1,1,0,0
+give me a geographic fact about vilnius,en-US,0,0,0,0,0
+how many species of bees are there in the united states,en-US,0,1,1,0,0
+go to the nsdl and search for prices,en-US,1,1,1,0,0
+try out in wikipedia,en-US,1,0,0,0,0
+who is taylor swift,en-US,0,0,0,0,0
+what are the climatic conditions in that area,en-US,0,0,0,0,0
+i need to know about the height of mount everest,en-US,1,1,0,0,0
+how do i subtract four from two,en-US,0,1,1,0,0
+please give me information next movie of aamir khan,en-US,1,1,1,0,0
+how much is the euro worth versus u. s. dollar,en-US,0,1,1,0,0
+how many calories in an orange,en-US,0,1,1,0,0
+amazon stock price,en-US,0,1,1,0,0
+u. s. d. position now,en-US,0,1,1,0,1
+how long till the eventual heat death of the universe,en-US,0,1,1,0,0
+when was angelina jolie born,en-US,0,1,0,0,1
+tell me when trump was born,en-US,1,1,1,0,1
+rate between these currencies,en-US,0,1,1,0,0
+what is the birth year of barack obama,en-US,0,1,0,0,1
+what are the current stocks for yahoo,en-US,0,1,1,0,1
+could you calculate five plus five,en-US,0,1,1,0,0
+google the object and see,en-US,1,1,0,0,0
+olly what is the total number of oceans in the world,en-US,0,1,1,0,0
+open calculator,en-US,1,1,0,0,0
+how old is ryan reynolds,en-US,0,0,0,0,0
+where is yellowstone park,en-US,0,1,1,0,0
+stock please,en-US,0,0,0,0,0
+what is the us dollar euro exchange rate,en-US,0,1,1,0,0
+what apple trading at,en-US,0,1,0,0,0
+convert ten inches to centimeters,en-US,0,1,1,0,0
+provide valid references with information to help people understand critical thinking and giving credit where credit is due rather than perpetuate fake news and alternative facts,en-US,1,1,1,0,0
+stock up or down for walgreens,en-US,0,1,0,0,0
+which desert is hottest,en-US,0,1,1,0,0
+how much yens per u. s. d. today,en-US,0,1,1,0,1
+can you give me the exchange rate for dollar in rupees,en-US,0,1,1,0,0
+what is the mean sea level of that place,en-US,0,1,0,0,0
+multiply one thousand by twelve,en-US,0,1,1,0,0
+how much euros per u. s. d. today,en-US,0,1,1,0,1
+which currency is greater the us dollar or yen,en-US,0,1,1,0,0
+please indicate the opening price of fra stock,en-US,1,1,1,0,1
+google the word,en-US,1,1,0,0,0
+does donald trump have any ties to russia,en-US,0,1,1,1,0
+how many children does sandra bullock have,en-US,1,1,1,0,0
+what year was elvis born,en-US,0,1,0,0,1
+check recent news on someone,en-US,1,1,0,0,1
+when is sunset,en-US,0,1,1,0,1
+how old is george clooney,en-US,0,0,0,0,0
+is euro the best currency to trade,en-US,0,1,1,1,0
+tell me the exchange rate of rupee for dollar,en-US,1,1,1,0,0
+if i have five u. s. dollars how much is that in australian dollars,en-US,1,1,1,0,0
+could you please tell what is the capital of america,en-US,1,1,1,0,0
+currency converter please,en-US,1,1,0,0,0
+what is julia roberts natural hair color,en-US,0,1,1,0,0
+what is the remainder when five hundred and twenty one is divided by three,en-US,0,1,0,0,0
+how deep is the deepest point of the grand canyon,en-US,0,1,1,0,0
+is tom cruise an only child,en-US,1,0,1,1,0
+what is the exchange rate for philippine pesos,en-US,0,1,1,0,0
+can you give me a run-down on john legend,en-US,1,1,1,0,0
+where was marlon brando born,en-US,0,1,0,0,0
+solve this equation one plus one,en-US,0,1,1,0,0
+tell me how old is ryan seacrest,en-US,1,1,1,0,0
+show bio of rihana,en-US,1,1,0,0,0
+what's the closing price of a. b. c.,en-US,0,1,1,0,1
+tell me formula for area of circle,en-US,1,1,1,0,0
+where is the convention center located,en-US,0,1,1,0,0
+in which field does that person excel in,en-US,1,1,0,0,0
+euro to u. s. d.,en-US,0,1,1,0,0
+what is twelve divided by four,en-US,0,1,1,0,0
+less stock price,en-US,0,1,0,0,0
+please tell me when i can become rich if i invested in dow stocks today and what will be the return after five years,en-US,1,1,1,0,1
+how long do elephants live,en-US,1,0,0,0,0
+what country has the most population,en-US,0,1,1,0,0
+what is the highest building in the world,en-US,0,1,1,0,0
+how old is angelina jolie,en-US,0,0,0,0,0
+who is highest scoring football player of all time,en-US,1,1,0,0,0
+the capital of nigeria is what,en-US,1,1,1,0,0
+what bra size is julianne hough,en-US,0,1,1,0,0
+show me share price of facebook,en-US,1,1,1,0,0
+tell me something about,en-US,1,1,1,0,0
+what is the most densely populated country in the world,en-US,0,1,1,0,0
+when was albert einstein born,en-US,0,1,0,0,1
+what is the definition of this word,en-US,0,1,1,0,0
+what is the highest mountain in the us,en-US,0,1,1,0,0
+what is the temperature in indianapolis indiana,en-US,0,0,0,0,0
+what is the exchange rate between the dollar and the yen,en-US,0,1,1,0,0
+what is googs current price,en-US,0,1,1,0,1
+what is rate of euro to u. s. d.,en-US,0,1,1,0,0
+where is norman reedus from,en-US,0,1,1,0,0
+what's the dow jones at today,en-US,0,1,1,0,1
+design the chemical compounds necessary to create sugar that doesn't cause diabetes or weight gain but doesn't provide a chemical taste,en-US,1,1,1,0,0
+answer this mathematical question,en-US,1,1,0,0,0
+what are the latest prices of the stocks,en-US,0,1,1,0,0
+when was the world war two started,en-US,0,1,0,0,1
+tell me about agra,en-US,1,1,1,0,0
+how old is adele,en-US,0,0,0,0,0
+i need to figure out this percentage,en-US,1,1,0,0,0
+michael jackson family background,en-US,1,1,1,0,0
+for how many years was abraham lincoln president of united states,en-US,1,1,1,0,0
+more stock price,en-US,0,1,1,0,0
+history of abraham lincoln,en-US,0,0,0,0,0
+what is now stock price of tata,en-US,0,1,1,0,1
+how much is twenty argentinian pesos in pounds,en-US,0,1,1,0,0
+latest iphone,en-US,0,0,0,0,0
+where is the closest barber,en-US,0,1,1,0,0
+give me the exchange rate for the us dollar and the euro,en-US,0,1,1,0,0
+olly how many stars has swat received on i. m. d. b.,en-US,1,1,1,0,0
+what is the exchange rate of currency in u. k.,en-US,0,1,1,0,0
+what is five divided by one,en-US,0,1,1,0,0
+what is the exchange rate for pounds and u. s. d.,en-US,0,1,1,0,0
+do you know jessica snout's phone number,en-US,0,1,0,0,0
+is starbucks stock up or down from last quarter,en-US,0,1,1,0,0
+what is the birthday of hemingway,en-US,0,1,0,0,1
+how did charlize theron learn how to speak english,en-US,1,1,0,0,0
+stocks f. flat,en-US,0,0,0,0,0
+how many kids jackie chan does have,en-US,1,1,1,0,0
+how do you subtract numbers,en-US,1,1,1,0,0
+what is the square root of four,en-US,0,1,1,0,0
+explain,en-US,1,0,0,0,0
+what is starbuck's stock worth,en-US,0,1,1,0,0
+what is twenty percent of one hundred and fifty,en-US,0,1,1,0,0
+how large is alaska,en-US,0,1,0,0,0
+how many beatles are still alive,en-US,1,1,1,0,0
+what size is a sperm whale,en-US,0,1,1,0,0
+how many countries are north of alaska,en-US,0,1,1,0,0
+stock,en-US,0,0,0,0,0
+what's the exchange rates between u. s. a. and china,en-US,0,1,1,0,0
+which pole is colder south or north,en-US,0,1,1,0,0
+where was steve jobs born,en-US,0,1,0,0,0
+what is the stock price of sensex right now,en-US,0,1,1,0,1
+where are the rockies located,en-US,0,1,1,0,0
+answer for three times four,en-US,0,1,1,0,0
+what does this word mean,en-US,0,1,1,0,0
+how many records did prince make,en-US,1,1,0,0,0
+how old is carrie underwood,en-US,0,0,0,0,0
+i want to know the stocks of amazon,en-US,1,1,0,0,0
+how much is b. p. in u. s. d.,en-US,0,1,1,0,0
+describe item xy,en-US,1,1,0,0,0
+what color are chairs,en-US,0,1,1,0,0
+can i have stock rate list of ola and uber,en-US,0,1,1,0,0
+how many euros are in a dollar,en-US,0,1,1,0,0
+help microphone,en-US,1,1,0,0,0
+have bing's stocks dropped,en-US,0,1,0,1,0
+which river in germany is the biggest,en-US,0,1,1,0,0
+how tall is tom cruise,en-US,0,1,1,0,0
+where is yosemite park,en-US,0,1,1,0,0
+what is three times seven,en-US,0,1,1,0,0
+book me a flight to mars next year,en-US,1,1,0,0,0
+when did beyonce and jay z. get married,en-US,0,1,1,0,1
+tell me about price of stock for innova,en-US,1,1,1,0,0
+name the capital of nigeria,en-US,1,1,1,0,0
+how old is jennifer anniston,en-US,0,0,0,0,0
+can you tell me how many stomachs a cow has,en-US,0,1,1,0,0
+where was kelly clarkson born,en-US,0,1,0,0,0
+tell me the simple interest of seven with interest in two year,en-US,0,1,1,0,1
+what's the stock price of this item,en-US,0,1,1,0,0
+what's the average elevation of the united states,en-US,0,1,1,0,0
+what's trump been on about this week,en-US,0,0,0,0,1
+ask my adviser,en-US,1,1,1,0,0
+exchange rate i will get with foreign currency,en-US,0,1,1,0,0
+which country's have a border to india,en-US,0,1,1,0,0
+what's the answer to the universe,en-US,0,1,1,0,0
+convert one pound to us dollar,en-US,1,1,1,0,0
+find a definition,en-US,1,1,1,0,0
+what's kim kardashian's measurements,en-US,0,1,0,0,0
+intel company stock price,en-US,0,1,1,0,0
+currency exchange rate,en-US,0,1,1,0,0
+how far away is seattle,en-US,0,1,0,0,0
+did angelina jolie leave brad pitt,en-US,1,1,0,1,0
+give me the stock price of apple,en-US,0,1,1,0,0
+what is the rate of inr,en-US,0,1,1,0,0
+how old is cher,en-US,0,0,0,0,0
+what is channing tatum's birthday,en-US,0,1,0,0,1
+how many people live in oxford now,en-US,1,0,0,0,1
+olly how many meetings did mahatma gandhi undertake,en-US,1,1,1,0,0
+what is the residing place of cricketer dhoni,en-US,1,1,0,0,0
+what was the last movie that brad pitt starred in,en-US,0,1,1,0,0
+what's the exchange rate for samsung,en-US,0,1,1,0,0
+where is stonehenge,en-US,0,1,1,0,0
+with all of the information you can gather on the internet could you please provide me with the best probable explanation of who killed president kennedy,en-US,1,1,1,0,0
+what is sean connery's birthday,en-US,0,1,0,0,1
+what state is david lynch from,en-US,0,1,1,0,0
+what's three plus three hundred and fifty five,en-US,0,1,1,0,0
+what does it look like,en-US,1,1,0,0,0
+show me popular exchange rates,en-US,1,1,1,0,0
+three times two equals six,en-US,0,1,0,0,0
+topography melbourne,en-US,0,0,0,0,0
+how tall is roraima mount,en-US,0,1,1,0,0
+how deep is the pacific ocean,en-US,0,1,0,0,0
+what is the dollar exchange rate,en-US,0,1,1,0,0
+what is one dollar in euros,en-US,0,1,1,0,0
+look up the number of people living in miami florida,en-US,1,1,1,0,0
+what is twenty four times twenty four,en-US,0,1,1,0,0
+how old is marian carey,en-US,0,0,0,0,0
+tell me how brexit is going to affect e. u. citizens in the long and mid terms,en-US,1,1,1,0,1
+current price of coca-cola stock,en-US,0,1,1,0,1
+what dance move is the most attractive,en-US,0,1,1,0,0
+how tall is lebron james,en-US,0,1,1,0,0
+what's the dow jones at today,en-US,0,1,1,0,1
+how much does nestle company cost,en-US,0,1,1,0,0
+none,en-US,0,0,0,0,0
+mention the stock price of hdfc,en-US,0,1,1,0,0
+who was the first president of united states,en-US,1,1,1,0,0
+location,en-US,0,0,0,0,0
+where is stockton california,en-US,0,1,1,0,0
+is pink recording a new album,en-US,1,1,0,1,0
+what is the capital of mexico,en-US,1,1,1,0,0
+what color is a dragon fruit,en-US,0,1,1,0,0
+what's the closing price of apple,en-US,0,1,1,0,1
+the following question asks you to analyze teacher goals and actions intended,en-US,1,1,1,0,0
+give me the age of chuck norris,en-US,0,0,0,0,0
+when was last academy award winning movie,en-US,0,1,1,0,0
+show geographic details of pyramids,en-US,1,1,0,0,0
+meaning of word,en-US,0,1,1,0,0
+how many times was richard nixon married,en-US,0,1,0,0,0
+what is the yen us dollar exchange rate,en-US,0,1,1,0,0
+please tell me about the historic facts about india,en-US,1,1,1,0,0
+did the stock prices of google go up or down,en-US,0,1,1,0,0
+tell me about martin luther king junior,en-US,1,1,1,0,0
+calculate distance from boston to new york,en-US,1,1,1,0,0
+alexa what is google,en-US,0,0,0,0,0
+define this,en-US,1,1,0,0,0
+search on his interests,en-US,1,1,1,0,0
+where do the rocky mountains start,en-US,0,1,0,0,0
+how many mega pixel is listed in the description of the canon,en-US,0,1,1,0,0
+how much does elton john pay for his suits,en-US,1,1,0,0,0
+exchange rate for converting ten dollar to euro,en-US,0,1,1,0,0
+how tall is the empire state building,en-US,0,1,1,0,0
+what is the rate for g. b. p. to u. s. d.,en-US,0,1,1,0,0
+what year did michael jackson die,en-US,0,1,0,0,1
+tell me about barack obama,en-US,1,1,1,0,0
+was einstein married,en-US,0,1,0,1,0
+how much is amazon stock,en-US,0,1,1,0,0
+what is the current stock price of rolls royce,en-US,0,1,1,0,1
+describe the general topography of central park,en-US,1,1,0,0,0
+alexa how large is the universe in miles,en-US,0,1,0,0,0
+birth date for movie star keanu reeves,en-US,0,1,1,0,1
+explain to me how gravity works,en-US,1,1,1,0,0
+in this country what is the exchange rate,en-US,0,1,1,0,0
+what is the name of a lake that has dried up over the years,en-US,0,1,1,0,0
+show me share price of amazon,en-US,1,1,1,0,0
+origin of word,en-US,0,1,1,0,0
+olly how many rivers are there in europe,en-US,0,1,1,0,0
+how expensive is google stock,en-US,0,1,1,0,0
+show various plants in earth,en-US,1,1,0,0,0
+is it true the gym is seven miles away,en-US,0,1,0,1,0
+what is the longest river in spain,en-US,0,1,1,0,0
+who is the current us treasury secretary,en-US,1,1,1,0,1
+tell me the stock rate of hyundai,en-US,1,1,1,0,0
+if i have five u. s. d. how much is that in aud,en-US,0,1,1,0,0
+alexa tell me the exchange rate of ten dollar to euro,en-US,1,1,1,0,0
+what is the result of one hundred minus fifty,en-US,0,1,1,0,0
+how big is the stashable cinch bag and what does it look like,en-US,1,1,1,0,0
+dollar to euro exchange rate,en-US,0,1,1,0,0
+try following these steps to select the correct answer,en-US,1,1,1,0,0
+what is the net worth of the celebrity,en-US,0,1,1,0,0
+what is the price of ford stock,en-US,0,1,1,0,0
+geo info,en-US,0,0,0,0,0
+how is iron made,en-US,0,1,0,0,0
+dollar rate of philippiness peso,en-US,0,1,1,0,0
+do you know actor surya,en-US,1,1,0,1,0
+is the largest ocean in the world the pacific,en-US,0,1,1,1,0
+how many euros can i get for one dollar,en-US,0,1,1,0,0
+angelina has a birthday when,en-US,0,1,0,0,1
+resolve this thirty twelve,en-US,1,1,0,0,0
+tvs stock price,en-US,0,1,1,0,0
+what does this word means,en-US,0,1,1,0,0
+what is one hundred and twenty three times one hundred and twenty three,en-US,0,1,1,0,0
+foreign exchange rates,en-US,0,1,1,0,0
+find me info on,en-US,1,1,1,0,0
+what's the cheapest price for zoella's first book,en-US,0,1,1,0,0
+how old is barack obaba,en-US,0,0,0,0,0
+can you help me find the answer to this question,en-US,0,1,1,0,0
+turn on notification for all news on the stock market,en-US,1,1,1,0,0
+when was richard nixon born,en-US,0,1,0,0,1
+what's bob scrote's net worth,en-US,0,1,1,0,0
+what was the first movie of morgan freeman,en-US,0,0,0,0,0
+what's going to be the cure for cancer,en-US,0,0,1,0,0
+send me the stock market updates for today,en-US,1,1,1,0,1
+what is clint eastwood doing these days,en-US,1,1,0,0,1
+tell me background family of selena gomez,en-US,1,1,1,0,0
+how far away is,en-US,0,0,0,0,0
+tell exchange rate of pound,en-US,1,1,1,0,0
+how is the current stock price looking for charmin,en-US,0,1,1,0,1
+what's the capital of new york,en-US,1,1,1,0,0
+could you please give me the birthday of mahatma gandhiji,en-US,0,1,0,0,1
+what is the dollar price in inr,en-US,0,1,1,0,0
+what is the current dollar to euro conversion rate,en-US,0,1,1,0,1
+how many rupies are in a dollar,en-US,0,1,1,0,0
+what is the google stock at,en-US,0,1,1,0,0
+i've got dollars for the month how much can i spend every day this month,en-US,1,1,1,0,0
+browsing centers,en-US,0,0,0,0,0
+convert the american dollar to the euro,en-US,1,1,1,0,0
+how old is j. k. rowling,en-US,0,0,0,0,0
+what is the exchange between dollar and british pound,en-US,0,1,1,0,0
+what is the euro to dollar exchange rate,en-US,0,1,1,0,0
+what color is a basketball,en-US,0,1,1,0,0
+what is burmuda triangle,en-US,0,0,0,0,0
+how much is starbuck's stock these days,en-US,0,1,1,0,1
+show me current exchange rate between euros and other currencies,en-US,1,1,1,0,1
+where is leah remini from,en-US,0,1,1,0,0
+what is the mass of a microwave,en-US,0,1,0,0,0
+what is the weight of an elephant,en-US,0,1,0,0,0
+what is the dollar equivalent in pesos,en-US,0,1,1,0,0
+what is the capital of new hampshire,en-US,1,1,1,0,0
+what road is longest,en-US,0,1,1,0,0
+notify me of the latest news on the stock market,en-US,1,1,1,0,0
+what is the value of the yen right now,en-US,0,1,1,0,1
+what is apple's stock price,en-US,0,1,1,0,0
+how tall was abraham lincoln,en-US,0,1,1,0,0
+what is the current exchange rate of euro to dollar,en-US,0,1,1,0,1
+how much was airtel sold for sometime back,en-US,0,1,0,0,1
+olly tell me about it,en-US,1,1,1,0,0
+what is the exchange rate between pound sterling and the u. s. dollar,en-US,0,1,1,0,0
+open map,en-US,1,1,0,0,0
+what time zone is arizona in,en-US,0,1,1,0,0
+what is the yen worth,en-US,0,1,1,0,0
+have i made loss in which stocks,en-US,1,1,0,0,0
+tell me about chuck norris,en-US,1,1,1,0,0
+what movies has casey affleck starred in,en-US,0,1,1,0,0
+alexa tell me keywords about usain bolt,en-US,1,1,1,0,0
+what is the coldest state in the us,en-US,0,1,1,0,0
+where is channing tatum from,en-US,0,1,1,0,0
+what is the answer to two times three,en-US,0,1,1,0,0
+what is a neutral density filter and would i want a gradient one or a solid one also which would be better in style between the screw on one and the square ones,en-US,1,1,1,0,0
+explain bob dylan,en-US,1,1,0,0,0
+what video game should i play next,en-US,1,1,0,0,0
+has sally fields ever won an academy award,en-US,1,1,0,1,1
+list me the stock of apple right now,en-US,1,1,0,0,1
+how tall is hulk hogan,en-US,0,1,1,0,0
+what is elvis favorite ride,en-US,1,1,1,0,0
+tell me the info about india's geography,en-US,1,1,1,0,0
+tell me when will indians economy touch that of americas,en-US,1,1,1,0,1
+change dollar to rupees rates,en-US,0,1,1,0,0
+how much is one u. s. d. in inr,en-US,0,1,1,0,0
+what volcanoes are currently active,en-US,1,0,0,0,1
+what are the different types of round objects,en-US,0,1,1,0,0
+where is the largest volcano in the world,en-US,0,1,1,0,0
+please provide geographic information about taiwan,en-US,1,1,0,0,0
+convert czk to euro,en-US,1,1,1,0,0
+what is the stock price for lexmark,en-US,0,1,1,0,0
+when does the super bowl officially start,en-US,0,1,0,0,1
+synonym of word,en-US,0,0,0,0,0
+will it be good to buy nike stock today,en-US,0,1,0,1,1
+please give me information about john abraham lincon,en-US,1,1,1,0,0
+what color is the sky,en-US,0,1,1,0,0
+have halifax shares gone up today,en-US,0,1,0,1,1
+what us state is farthest north,en-US,0,1,1,0,0
+how many pesos to an american dollar,en-US,0,1,1,0,0
+has the dollar rate increased,en-US,0,1,0,1,0
+where is the best vacation spot in california,en-US,0,1,1,0,0
+what is the stock price for,en-US,0,1,1,0,0
+which part of the country has tropical forest,en-US,0,1,1,0,0
+what kinds of sunglasses are considered aviators,en-US,0,0,0,0,0
+how many legs does a dog have,en-US,0,1,1,0,0
+what is the meaning of,en-US,0,0,0,0,0
+give me the exchange rate for dollar in euros,en-US,0,1,1,0,0
+africa info,en-US,0,0,0,0,0
+exchange rates between dollar and euro,en-US,0,1,1,0,0
+what area has at least a thousand miles of open desert,en-US,0,1,1,0,0
+find details about u. s. a.,en-US,1,1,0,0,0
+i need to know the highest mountain in the world,en-US,1,1,1,0,0
+how crowded is los angeles,en-US,0,1,0,0,0
+what is the exchange rate between us dollars and yen is,en-US,0,1,1,0,0
+please check the exchange rates of the us dollar versus the euro,en-US,1,1,1,0,0
+find twitter handle of tom cruise,en-US,1,1,0,0,0
+has pound value decreased,en-US,0,1,1,1,0
+what is the size of a small cub,en-US,0,1,1,0,0
+what region is miami located,en-US,0,1,1,0,0
+how far above sea level is denver,en-US,0,1,1,0,0
+divide seventy six in two parts,en-US,0,1,1,0,0
+where is kansas located,en-US,0,1,1,0,0
+what is the square root of one hundred and forty eight thousand five hundred and eighty seven,en-US,0,1,1,0,0
+what is the shallowest piece of land,en-US,0,1,1,0,0
+what is ten divided by five,en-US,0,1,1,0,0
+facebook current stock rate,en-US,0,1,1,0,1
+can you tell me about wayne gretszky,en-US,1,1,1,0,0
+how much money in us would i need to have a thousand pesos,en-US,1,1,0,0,0
+who was john dillinger,en-US,0,0,0,0,0
+how many miles is new york city from los angeles,en-US,0,1,1,0,0
+what's the highest mountain in italy,en-US,0,1,1,0,0
+where is ashwin,en-US,0,1,1,0,0
+stock rate of facebook,en-US,0,1,1,0,0
+what is by plus y.,en-US,0,1,1,0,0
+find the mass of the sun,en-US,1,1,0,0,0
+stock details,en-US,0,1,0,0,0
+what is the exchange rate for mexico money,en-US,0,1,1,0,0
+where is san francisco,en-US,0,1,1,0,0
+what is the exchange rate of rupee for dollar,en-US,0,1,1,0,0
+siri what is one american dollar in japanese yen,en-US,0,1,1,0,0
+where jackie chan currently live,en-US,1,0,0,0,1
+can you list the stock on sony,en-US,1,1,0,0,0
+what is the exchange rate of u. s. d. to cad,en-US,0,1,1,0,0
+how many square miles is the average country on earth,en-US,0,1,1,0,0
+how much is one dollar us in canadian,en-US,0,1,1,0,0
+where is,en-US,0,0,0,0,0
+how many songs did michael jackson write,en-US,1,1,1,0,0
+something,en-US,0,0,0,0,0
+how far does my dollar go in japan,en-US,0,1,0,0,0
+what is the current stock price for amazon,en-US,0,1,1,0,1
+how much is one dollar in euros,en-US,0,1,1,0,0
+where is the worlds highest falls,en-US,0,1,1,0,0
+where is located the biggest waterfall in the world,en-US,0,1,1,0,0
+what is the total number of islands in the united states,en-US,0,1,1,0,0
+how tall is a giraffe,en-US,0,1,1,0,0
+where is raleigh,en-US,0,1,1,0,0
+abdul k. a. l. a. m. president,en-US,1,0,1,0,0
+which continent has highest growth of cotton and what is average production,en-US,0,1,1,0,0
+what is the exchange rate for the english pound and u. s. dollar,en-US,0,1,1,0,0
+who built the prado museum,en-US,1,1,0,0,0
+where is the hottest desert located,en-US,0,1,1,0,0
+how strong is the dollar compared to the peso,en-US,0,1,1,0,0
+how many meetings did mahatma gandhi undertake,en-US,1,0,0,0,0
+what year did george clooney start acting,en-US,1,1,0,0,1
+convert currency calculator,en-US,0,1,0,0,0
+how many people live in takjistan,en-US,1,0,0,0,0
+where is statue of liberty,en-US,0,1,1,0,0
+what is the square root of ninety seven,en-US,0,1,1,0,0
+what new movie is jennifer lawrence working on,en-US,1,1,0,0,0
+is colombo on the coast of sri lanka,en-US,0,1,1,1,0
+what is i. b. m. stock at,en-US,0,1,1,0,0
+tell me the exchange rate of ten dollar to euro,en-US,1,1,1,0,0
+what is skynet,en-US,0,0,0,0,0
+how's microsoft's stock,en-US,0,0,0,0,0
+how did george rogers clark die,en-US,1,1,0,0,0
+how tall is micheal jackson,en-US,0,1,1,0,0
+what's my stock fluctuations,en-US,0,1,0,0,0
+which bank will give better rate for currencies i have,en-US,1,1,1,0,0
+tell me who the thirty second president is,en-US,1,1,1,0,0
+tell me the highest mountain in the world,en-US,1,1,1,0,0
+how much is ten u. s. d. in indian rupees,en-US,0,1,1,0,0
+please let me know the exchange rate between indian rupees and us,en-US,1,1,1,0,0
+what's the stock price for tesco,en-US,0,1,1,0,0
+who is obama,en-US,0,0,0,0,0
+show me share price of tata,en-US,1,1,1,0,0
+is warren buffet is investing in my listed stocks,en-US,1,1,1,1,0
+celeb info,en-US,0,0,1,0,0
+what is the circumference of the earth,en-US,0,0,0,0,0
+what is the capital of jordan,en-US,1,1,1,0,0
+i want some information on john lennon,en-US,1,1,1,0,0
+what is six divided by two,en-US,0,1,1,0,0
+calculate a close integral of exponential function from zero to five,en-US,1,1,0,0,0
+is i. b. m. up today,en-US,0,1,0,1,1
+give the stock price details of motorolla,en-US,0,1,1,0,0
+what is three plus four,en-US,0,1,1,0,0
+how many oceans are there,en-US,0,1,1,0,0
+mean,en-US,0,0,0,0,0
+if a pencil cost four dollars and a book ten dollars cost how much i should pay if i buy two pencil and three book,en-US,1,1,1,0,0
+how old is clint eastwood,en-US,0,0,0,0,0
+tell me about new york,en-US,1,1,1,0,0
+how much can chris helmsworth bench press,en-US,1,1,0,0,0
+tell me about the stock for shell,en-US,1,1,1,0,0
+where in the world is carmen san diego,en-US,0,1,1,0,0
+details on person,en-US,0,1,0,0,0
+stock price for gss energy,en-US,0,1,1,0,0
+what is a calone worth compared to a u. s. dollar,en-US,0,1,1,0,0
+what is robin williams birthday,en-US,0,1,0,0,1
+what is twelve plus one hundred and ninety six,en-US,0,1,1,0,0
+how long is the nile river,en-US,0,1,1,0,0
+does kim kardashian wear converse,en-US,1,1,0,1,0
+search on his locality,en-US,1,1,0,0,0
+who was in the beatles,en-US,0,1,1,0,0
+where is los angeles,en-US,0,1,1,0,0
+what city does anthony keidis live in,en-US,1,0,0,0,0
+what's the exchange rate between czk and euro,en-US,0,1,1,0,0
+dollar rupees exchange rate,en-US,0,1,1,0,0
+tell me the latest stock of pepsi,en-US,1,1,1,0,0
+tell me why bill bur is a better comedian than iliza schleshinger,en-US,1,1,1,0,0
+what is angelina jolie's birthday,en-US,0,1,0,0,1
+show conversion rate of u. s. d. and euro,en-US,1,1,1,0,0
+what is the sixteenth president,en-US,1,0,1,0,0
+i need the stock price for amazon,en-US,1,1,1,0,0
+how many bases has nick swisher stolen in his career,en-US,1,1,1,0,0
+what is the home city of the bolshoi theater,en-US,0,1,1,0,0
+alexa what are amd stock prices,en-US,0,1,1,0,0
+who is janet jackson currently dating or married to,en-US,1,1,1,0,1
+what year was chuck norris born,en-US,0,1,0,0,1
+who is napoleon hill,en-US,0,0,0,0,0
+what is burmuda tiangle,en-US,0,0,0,0,0
+exchange euro to dollar,en-US,1,1,0,0,0
+what t. v. show is jennifer aniston on,en-US,0,1,0,0,0
+calculator,en-US,0,0,0,0,0
+what is the exchange rate of euro and dollar,en-US,0,1,1,0,0
+where is yellowstone park located,en-US,0,1,1,0,0
+exchange rate with these currencies,en-US,0,1,1,0,0
+does selena gomez has a scandal,en-US,1,0,0,1,0
+how much does the f. flat stock cost,en-US,0,1,1,0,0
+exchange rate from cad to u. s. d.,en-US,0,1,1,0,0
+tell me about narendra modi,en-US,1,1,1,0,0
+what is the longest day of the year,en-US,0,1,1,0,0
+what is the us dollar and euro exchange rate,en-US,0,1,1,0,0
+longest river in the world,en-US,0,1,1,0,0
+alexa amd's current stock prices,en-US,0,1,1,0,1
+where is justin bieber's home base,en-US,0,1,1,0,0
+who was appointed as deputy centimeter of uttar pradesh,en-US,1,1,1,0,0
+how old is mariah carey,en-US,0,0,0,0,0
+how much is twelve divided by four,en-US,0,1,1,0,0
+how much does the average car weigh,en-US,0,1,0,0,0
+find exchange rate for u. s. d. to dollar,en-US,1,1,1,0,0
+olly find me the perfect girlfriend,en-US,1,1,1,0,0
+what is the root of six hundred and twenty five,en-US,0,1,1,0,0
+when is shakira's birthday,en-US,0,1,0,0,1
+look up what this word means,en-US,1,1,1,0,0
+is there any affairs of ileana d'cruz,en-US,1,1,0,0,0
+what is kevin spacey doing,en-US,1,1,0,0,0
+show me the exchange rate between czk and dollar,en-US,1,1,1,0,0
+how big is the cosmos,en-US,0,1,1,0,0
+how to calculate trigonametry,en-US,0,1,0,0,0
+what does one plus,en-US,0,1,1,0,0
+where was president madison born,en-US,1,1,1,0,0
+where is the prime meridian,en-US,0,1,1,0,0
+what is the capital of china,en-US,1,1,1,0,0
+i want to know how many feet are in a mile,en-US,1,1,1,0,0
+olly is a dollar worth more or less in brazil,en-US,0,1,1,0,0
+what was the stock price for google yesterday,en-US,0,1,1,0,1
+define this object,en-US,1,1,0,0,0
+where did mahatma gandhi born,en-US,0,1,0,0,0
+is elizabeth taylor still alive,en-US,1,0,0,1,0
+give me the opening stock price of apple,en-US,1,1,1,0,1
+where is justin beiber from,en-US,0,1,1,0,0
+is it true that asia has only two countries,en-US,0,1,1,1,0
+what is the result of two by two,en-US,0,1,1,0,0
+what is worth more a u. s. d. or aus,en-US,0,1,1,0,0
+tell me about donald trumps early life,en-US,1,1,1,0,0
+google michael jackson,en-US,1,1,0,0,0
+please tell who invented telephone and what is the date,en-US,1,1,1,0,0
+find geographic details of this place,en-US,1,1,0,0,0
+do you know math,en-US,1,1,0,1,0
+find out for me what the topic is of each oswald chambers book,en-US,1,1,0,0,0
+when you ask it to schedule an appointment that it can email the specific person and provide available dates from your calendar,en-US,1,1,1,0,1
+tell me one euro equals dollars,en-US,1,1,1,0,0
+where is it hottest on earth,en-US,0,1,1,0,0
+what city was elvis born,en-US,0,1,0,0,0
+what are the current stock prices for google,en-US,0,1,1,0,1
+how far is california from georgia,en-US,0,1,1,0,0
+what is the composition of our nails,en-US,0,1,1,0,0
+current currency rate,en-US,0,1,1,0,1
+what is the location of moldova,en-US,0,1,1,0,0
+achievements of sachin tendulkar,en-US,1,1,0,0,0
+exchange rate dirham and rupees,en-US,0,1,1,0,0
+what's the one night with paris,en-US,0,0,0,0,0
+what is the population of los angeles,en-US,0,1,1,0,0
+what is the plot of the most recent will smith movie,en-US,0,0,1,0,1
+show me the stock prices of target today,en-US,1,1,1,0,1
+how are the top ten stocks at the moment,en-US,0,1,1,0,1
+how old is emma watson newest boyfriend,en-US,1,1,1,0,0
+ask my brokers,en-US,1,0,1,0,0
+how many months in a year,en-US,0,1,1,0,0
+how many inches make one feet,en-US,0,1,1,0,0
+please tell me news related to the stock market,en-US,1,1,1,0,0
+is the dow up or down,en-US,0,1,0,0,0
+who is the prime minister of india,en-US,1,1,1,0,0
+how much is a dollar worth compared to a yen,en-US,0,1,1,0,0
+how much does stock cost in walmart,en-US,0,1,1,0,0
+what is the longest river on earth,en-US,0,1,1,0,0
+what is the financial capital of canada,en-US,1,1,1,0,0
+where is montana,en-US,0,1,1,0,0
+what year did elvis die,en-US,0,1,0,0,1
+depending on the role you are going for this will affect your answer,en-US,1,1,1,0,0
+tell what is the value of sin thirty,en-US,0,1,1,0,0
+how do i,en-US,0,0,0,0,0
+how many floors does the empire state building have,en-US,0,1,1,0,0
+who is the prettiest actress in the world in this century,en-US,1,1,1,0,1
+what is the price of euro to u. s. d.,en-US,0,1,1,0,0
+what is twenty percent of one hundred and twenty,en-US,0,1,1,0,0
+what is the total number of oceans in the world,en-US,0,1,1,0,0
+what is the closing price of axle company,en-US,0,1,0,0,1
+please describe that object for me,en-US,1,1,0,0,0
+what is exchange for the us and euro,en-US,0,1,1,0,0
+how many kilometers are in a mile,en-US,0,1,1,0,0
+is jackie chan married,en-US,0,1,0,1,0
+what are the chances of the stock market closing below the two hundred moving average in the next fourteen days,en-US,0,1,1,0,1
+what is ten u. s. d. in euros,en-US,0,1,1,0,0
+why has politics become so polarized recently,en-US,1,1,0,0,1
+when was the bolshoi theater constructed,en-US,0,1,0,0,1
+where is burmuda triangle,en-US,0,1,1,0,0
+google i. b. m. stock prices,en-US,1,1,1,0,0
+tell me when the next big earthquake will hit california,en-US,1,1,1,0,1
+i would like my to tell me the trend on foreign exchange rates,en-US,1,1,1,0,0
+show me the stock price for google,en-US,1,1,1,0,0
+currency rate of indian rupee and singapore dollar,en-US,0,1,1,0,0
+how much long is atlanta,en-US,0,1,1,0,0
+tell me about fjords,en-US,1,1,1,0,0
+has my stock increased in value,en-US,0,1,1,1,0
+what's the highest mountain range in the world,en-US,0,1,1,0,0
+earth info,en-US,0,0,0,0,0
+what movies has emma watson acted in,en-US,1,0,0,0,0
+who is president of poland,en-US,1,1,1,0,0
+what is twenty three times fifty two,en-US,0,1,1,0,0
+where do most celebrities hang out,en-US,0,1,0,0,0
+find me some celebrities that are capricorns,en-US,1,1,1,0,0
+when is the birth date of taylor lautner,en-US,0,1,0,0,1
+can cats eat fish,en-US,1,1,0,1,0
+where is obama from,en-US,0,1,1,0,0
+update me on stock price of this company stock,en-US,1,1,1,0,0
+tell me the best exchange rate,en-US,1,1,1,0,0
+please give me address of salman khan apartment,en-US,0,1,1,0,0
+is california between nevada and new york,en-US,0,1,1,1,0
+stock exchange rates,en-US,0,1,1,0,0
+who is the current president of united states,en-US,1,1,1,0,1
+today's closing price for google,en-US,0,1,1,0,1
+how tall is jobe bryant,en-US,0,1,1,0,0
+what exchange rate does the us dollar and the euro have,en-US,0,1,1,0,0
+how much is apple stock worth,en-US,0,1,1,0,0
+what is the exchange rate from english currency to yen,en-US,0,1,1,0,0
+what's thirteen plus fourteen,en-US,0,1,1,0,0
+what is the distance to the moon,en-US,0,1,0,0,0
+and the pound is doing how badly against the euro,en-US,0,1,1,0,0
+how big is the tower of london,en-US,0,1,1,0,0
+what happened to the dow jones today,en-US,0,0,0,0,1
+tell me about lisa ann,en-US,1,1,1,0,0
+how long has princess kate been pregnant,en-US,0,1,0,0,0
+solve math issue,en-US,1,1,0,0,0
+what voices has alan tudek played,en-US,1,1,0,0,0
+meaning of,en-US,0,0,0,0,0
+exchange rates,en-US,0,1,1,0,0
+what is the geographic region of madagascar,en-US,0,0,0,0,0
+what is the tallest mountain in tucson,en-US,0,1,1,0,0
+what are amd stock prices,en-US,0,1,1,0,0
+where did rama go on his final journey,en-US,1,1,0,0,0
+what is terranova stock going for,en-US,0,1,1,0,0
+exchange rate of yan with dollar,en-US,0,1,1,0,0
+where is artic ocean,en-US,0,1,1,0,0
+when is president's day,en-US,0,1,1,0,0
+tell me about donald trump,en-US,1,1,1,0,0
+check stock price for dinky donuts,en-US,1,1,1,0,0
+object identifier,en-US,0,1,0,0,0
+where is steven spielberg living,en-US,1,0,0,0,0
+siri please check exchange rates,en-US,1,1,1,0,0
+siri what is the elevation of denver colorado,en-US,0,1,0,0,0
+what's the price of ge right now,en-US,0,1,1,0,1
+what is the daily price of johnson and johnson stock,en-US,0,1,1,0,0
+how much money did bill gates make,en-US,1,1,0,0,0
+google who was the last president who didn't own a dog,en-US,1,1,1,0,0
+can you find and tell me the prices of facebook stock,en-US,1,1,1,0,0
+what is the highest mountain range in the us,en-US,0,1,1,0,0
+how old is rod stewart,en-US,0,0,0,0,0
+list top five movies of emma watson,en-US,1,1,1,0,0
+how big is ohio,en-US,0,1,1,0,0
+how tall is mount everest,en-US,0,1,1,0,0
+what is the exchange rate of us dollar today for rupee,en-US,0,1,1,0,1
+tell me the current price of exxon mobil stock,en-US,1,1,1,0,1
+open stock price for name,en-US,0,1,0,0,1
+were the stocks rising or declining,en-US,0,1,0,0,0
+how old are cristiano ronaldo,en-US,0,0,0,0,0
+who is barack obama,en-US,0,0,0,0,0
+f. flat stocks,en-US,0,0,0,0,0
+how old is ellen,en-US,0,0,0,0,0
+what is one plus one,en-US,0,1,1,0,0
+how is the stock going in general,en-US,0,1,0,0,0
+who is donald trump,en-US,0,0,0,0,0
+from dollar to euro,en-US,0,1,1,0,0
+where is pategonia,en-US,0,1,1,0,0
+how many ounces is in a quart,en-US,0,1,1,0,0
+how much is the us dollar worth in canada,en-US,0,1,1,0,0
+area of north america,en-US,0,0,0,0,0
+what is the exchange rate between us and mexico,en-US,0,1,1,0,0
+what is the value of apple,en-US,0,1,1,0,0
+sum of five and two,en-US,0,1,1,0,0
+calculate two multiplied by two,en-US,0,1,1,0,0
+what do pink ribbons support,en-US,1,1,0,0,0
+honda stock price,en-US,0,1,1,0,0
+what's the exchange rates between u. s. a. and china,en-US,0,1,1,0,0
+which part of antarctica belongs to the us,en-US,1,1,0,0,0
+what is the largest continent in the world,en-US,0,1,1,0,0
+what is six times sixty eight,en-US,0,1,1,0,0
+what is the capital city of colorado,en-US,1,1,1,0,0
+how do you solve three two,en-US,0,1,1,0,0
+is ll cool j. still rapping,en-US,1,0,0,1,0
+rowan atkinson info,en-US,0,0,0,0,0
+when was justin bieber born,en-US,0,1,0,0,1
+where was keith urban born,en-US,0,1,0,0,0
+what currency does croatia use,en-US,0,1,0,0,0
+please check this companies stock,en-US,1,1,0,0,0
+can you take five and divide it by three,en-US,0,1,1,0,0
+where do cows come from,en-US,0,1,1,0,0
+what is the increase in stock value over the past week of disney,en-US,0,1,1,0,1
+what is the price of apple stock today,en-US,0,1,1,0,1
+what is arnold schwarzenegger's birthday,en-US,0,1,0,0,1
+is yellowstone park the largest park,en-US,0,1,1,1,0
+is the stocks which i have invested are increasing,en-US,1,1,1,1,0
+someone,en-US,0,0,0,0,0
+when was dolly parton born,en-US,0,1,0,0,1
+where is fiji,en-US,0,1,1,0,0
+how old was albert einstein when he came up with relativity theory,en-US,1,1,1,0,1
+which is the highest peak in the world,en-US,0,1,1,0,0
+find stock price for name,en-US,0,1,1,0,0
+find details about president barrack obama,en-US,1,1,1,0,0
+how is the spouse of obama,en-US,1,1,1,0,0
+how many g. b. p. can i get for one dollar,en-US,0,1,1,0,0
+how far is canada from my current location,en-US,0,1,1,0,1
+what's the capital of kazakhstan,en-US,1,1,1,0,0
+keanu reeves date of birth,en-US,0,1,0,0,1
+does spain share its border with morrocco,en-US,0,1,1,1,0
+ok google where does sophia vergara live,en-US,1,0,0,0,0
+how big is england,en-US,0,1,1,0,0
+what does two plus two equal,en-US,0,1,1,0,0
+when will tesla come to my town,en-US,0,1,0,0,1
+denmark geographic location,en-US,0,1,1,0,0
+how much is the dollar worth compared to the euro,en-US,0,1,1,0,0
+how much would it cost to buy a share of target,en-US,0,1,1,0,0
+can you convert my this money into,en-US,0,1,0,1,0
+what is us dollar today,en-US,0,1,1,0,1
+tell me the answer for two plus two,en-US,0,1,1,0,0
+how much is lebron james worth,en-US,0,1,1,0,0
+how old is tom cruise,en-US,0,0,0,0,0
+where is mount rushmore located,en-US,0,1,1,0,0
+please check the recent trend in stocks,en-US,1,1,1,0,1
+beach,en-US,0,0,0,0,0
+what are pounds worth right now,en-US,0,1,1,0,1
+how does the dollar compare to the pound,en-US,0,1,1,0,0
+actor who acts a role,en-US,1,1,0,0,0
+what's the us dollar rate today,en-US,0,1,1,0,1
+identify object,en-US,1,1,0,0,0
+did kim kardashian go to the paris fashion shows this year,en-US,1,1,0,1,1
+what currency does england use,en-US,0,1,0,0,0
+how many canadian dollars are in a u. s. dollar,en-US,0,1,1,0,0
+list exchange rate information for the day for u. s. d. to jpy,en-US,0,1,1,0,1
+what year did robin williams pass away,en-US,0,1,0,0,1
+tell me tom hanks middle name,en-US,1,1,1,0,0
+what year did tim burton divorce helena,en-US,1,1,0,0,1
+convert one us dollar to euro,en-US,1,1,1,0,0
+what is the tallest mountain,en-US,0,1,1,0,0
+does pink have a new baby,en-US,1,1,1,1,0
+where is new zealand located on a map,en-US,0,1,1,0,0
+four divided by two equals two,en-US,0,1,0,0,0
+olly how old is tom cruise,en-US,0,0,0,0,0
+check currencies,en-US,1,1,0,0,0
+where is india located,en-US,0,1,1,0,0
+how many number of fans does that person have approximately,en-US,1,1,1,0,0
+can you add up thirteen plus five plus nine for me,en-US,0,1,1,0,0
+money exchange,en-US,1,1,0,0,0
+i need the exchange rate for the us dollar and the euro,en-US,0,1,1,0,0
+how many rivers are there in the world,en-US,0,1,1,0,0
+which ocean touches at our continent,en-US,0,1,1,0,0
+give me the birth details of abraham lincoln,en-US,1,1,0,0,0
+what is the current exchange rate between the dollar and the euro,en-US,0,1,1,0,1
+give me the opening stock price of infosys technologies today,en-US,0,1,1,0,1
+tell me why relationships are so hard,en-US,1,1,1,0,0
+where is south asia located,en-US,0,1,1,0,0
+how much rate will be calculated,en-US,0,1,0,0,0
+what year was bill pullman born,en-US,0,1,0,0,1
+please find out the share price of microsoft in nasdaq,en-US,1,1,1,0,0
+how effective will be to buy nike stock,en-US,1,1,0,0,0
+bypass certain passwords,en-US,1,1,0,0,0
+where is george w. bush from,en-US,0,1,1,0,0
+what is the exchange rate between us and france,en-US,0,1,1,0,0
+how many inches are in a foot,en-US,0,1,1,0,0
+when did the statue of liberty made,en-US,0,1,0,0,1
+what is the stock price of hdfc,en-US,0,1,1,0,0
+how much is the euro versus the canadian dollar,en-US,0,1,1,0,0
+define word,en-US,1,1,0,0,0
+for how many years did mahatma gandhi live,en-US,1,0,0,0,0
+how long will it take to travel to japan from south korea,en-US,0,1,1,0,0
+where is the coldest place in the world,en-US,0,1,1,0,0
+what are the coordinates of the equator,en-US,0,1,1,0,0
+where does brad pitt live,en-US,1,0,0,0,0
+how many miles is it between illinois and louisiana alexa,en-US,0,1,1,0,0
+what's that object about,en-US,0,0,0,0,0
+current stock price intel,en-US,0,1,1,0,1
+one plus two equal,en-US,0,1,1,0,0
+what is the exchange rate between u. s. d. and inr,en-US,0,1,1,0,0
+how many miles in five kilometers,en-US,0,1,1,0,0
+what is the highest mountain in asia,en-US,0,1,1,0,0
+how do i check my currency exchange rate,en-US,1,1,1,0,0
+tell me amd stock prices,en-US,1,1,1,0,0
+new exchange rate,en-US,0,1,0,0,0
+how far in steps is home from here,en-US,0,1,1,0,0
+how many centimeter make one foot,en-US,0,1,1,0,0
+who is the prime minister of russia,en-US,1,1,1,0,0
+olly what is the capital of california,en-US,1,1,1,0,0
+what are the measurements of a queen mattress,en-US,0,1,0,0,0
+where is johncena from,en-US,0,1,1,0,0
+give me the opening stock price of sony,en-US,1,1,1,0,1
+where is north dakota,en-US,0,1,1,0,0
+is mount everest the tallest mountain in the united states,en-US,0,1,1,1,0
+can many seashells did sally sell by the seashore,en-US,1,1,1,0,0
+look up someone,en-US,1,1,0,0,0
+list the celebrities who have been in my country in the last five years,en-US,0,1,1,0,1
+divide one thousand five hundred by one hundred and sixty,en-US,0,1,1,0,0
+what is the height of mount everest,en-US,0,1,0,0,0
+awards won by michael jackson,en-US,1,1,1,0,0
+what is eighty seven minus fourteen,en-US,0,1,1,0,0
+what is the exchange rates in this region,en-US,0,1,1,0,0
+please solve this math,en-US,0,1,1,0,0
+what is this thing,en-US,0,0,0,0,0
+tell me about india location,en-US,0,1,0,0,0
+set notification for news on the stock market,en-US,1,1,1,0,0
+please tell me what is the rate for yen to u. s. d.,en-US,1,1,1,0,0
+find me the perfect girlfriend,en-US,1,1,1,0,0
+what is the birthday of adam gilchrist,en-US,0,1,0,0,1
+what is the highest mountain in the world,en-US,0,1,1,0,0
+where is denmark,en-US,0,1,1,0,0
+what's the currency exchange rate for china,en-US,0,1,1,0,0
+what is the exchange rate between the us and canada,en-US,0,1,1,0,0
+tell me about amazon's history,en-US,1,1,1,0,0
+is kim kardashian married,en-US,0,1,0,1,0
+given me the exchange rates between u. s. d. and inr,en-US,0,1,1,0,0
+which was longest buildings in the world,en-US,0,1,1,0,0
+what is price of dollar,en-US,0,1,1,0,0
+when does iphone stock usually drop,en-US,0,1,1,0,0
+tell me about george washington,en-US,1,1,1,0,0
+explain the exchange rate of rupee for dollar,en-US,1,1,1,0,0
+who won the presidential election this year,en-US,0,1,1,0,1
+olly can you tell me the price of google stock,en-US,0,1,1,0,0
+find exchange rate for u. s. d. to pound,en-US,1,1,1,0,0
+what is the exchange rate between the british pound and the u. s. dollar,en-US,0,1,1,0,0
+math courses,en-US,0,0,0,0,0
+you should know about,en-US,1,1,0,0,0
+where is laos located,en-US,0,1,1,0,0
+i want to learn about donald trump,en-US,1,1,0,0,0
+who is the wife of obama,en-US,1,1,1,0,0
+what is the exchange rate for u. s. d. to nzd,en-US,0,1,1,0,0
+tell me who will win the next presidential election,en-US,1,1,1,0,0
+please define word,en-US,1,1,0,0,0

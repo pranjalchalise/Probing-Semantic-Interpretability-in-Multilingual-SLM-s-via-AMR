@@ -1,0 +1,51 @@
+sentence,lang,ARG0,ARG1,ARG2,neg,time
+what movies has neil walker done,en-US,1,1,0,0,0
+please google location and information of mount rushmore,en-US,1,1,0,0,0
+search word synonym,en-US,1,0,1,0,0
+what is the stock information of walmart,en-US,0,0,0,0,0
+how much would it cost to buy stock in apple,en-US,0,1,1,0,0
+show me prince's biography,en-US,1,1,1,0,0
+did the price of walmart stock go up or down,en-US,0,1,1,0,0
+what is the square root of ten,en-US,0,1,1,0,0
+seven times seven,en-US,0,1,1,0,0
+when was benjamin franklin born,en-US,0,1,0,0,1
+what is barack obama doing right now,en-US,1,1,0,0,1
+google maps,en-US,0,0,0,0,0
+what is the hobby of ajay devgn,en-US,0,0,0,0,0
+what creates buttermilk,en-US,0,1,1,0,0
+what is twelve times eight,en-US,0,1,1,0,0
+what is a canadian dollar worth in the us,en-US,0,1,1,0,0
+search the locality,en-US,1,1,0,0,0
+how much does a bowling ball cost,en-US,0,1,1,0,0
+search the region,en-US,1,1,0,0,0
+how are my stocks doing today,en-US,1,0,0,0,1
+how high is the south n. p.,en-US,0,1,0,0,0
+are jello shots calorie free,en-US,0,1,1,1,0
+what movies has clancy brown played in,en-US,1,0,0,0,0
+what's the rate between pesos and yen,en-US,0,1,1,0,0
+search google shopping for the best price on a monoprice mxblue mechanical keyboard,en-US,1,1,1,0,0
+how long is an earth day,en-US,0,1,1,0,0
+tell me who has the most number one hits on the billboard top twenty,en-US,1,1,1,0,0
+what is the average per capita income between asia and europe people,en-US,0,1,1,0,0
+angelina jolie spouses,en-US,1,1,1,0,0
+which celebrity is most likely to follow me back on twitter,en-US,1,1,1,0,0
+where are pyramids located,en-US,0,1,1,0,0
+who build the paris tower,en-US,1,1,0,0,0
+refer the stock price of hdfc,en-US,1,1,1,0,0
+what is the population of alabama,en-US,0,1,1,0,0
+list the latest books published by favorite authors,en-US,1,1,0,0,0
+how tall is jennifer aniston,en-US,0,1,1,0,0
+one dolla equals how much inr,en-US,0,1,1,0,0
+geography please,en-US,0,0,0,0,0
+what is fourteen divided by two,en-US,0,1,1,0,0
+solution for eighty one divided by nine,en-US,0,1,1,0,0
+ok google did angelina jolie leave brad pitt,en-US,1,1,0,1,0
+what's two hundred divided by five,en-US,0,1,1,0,0
+olly what's the sum of the two numbers four and six,en-US,0,1,1,0,0
+get me a stock price of audi,en-US,0,1,1,0,0
+calculate ohm's law based on these values,en-US,1,1,1,0,0
+is san francisco near berkeley,en-US,0,1,1,1,0
+exchange rate of euro with dollar,en-US,0,1,1,0,0
+explain object,en-US,1,1,0,0,0
+what is the answer to life,en-US,0,1,1,0,0
+how long was bryan cranston on breaking bad,en-US,0,1,1,0,0
