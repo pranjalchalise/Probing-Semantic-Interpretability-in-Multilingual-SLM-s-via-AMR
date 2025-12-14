@@ -1,8 +1,3 @@
-# analyze_by_language.py
-#
-# Main script to analyze probe performance by language
-# Tests hypothesis: Non-English languages encode semantic roles in later layers
-
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -11,14 +6,14 @@ from language_analysis.analyzer import analyze_results, compare_languages
 from language_analysis.visualizer import plot_results, create_summary_plots
 
 FEATURE_NAMES = ["ARG0", "ARG1", "ARG2", "neg", "time"]
-MIN_EXAMPLES_PER_LANG = 100  # Minimum examples needed to train probes
+MIN_EXAMPLES_PER_LANG = 100  # min examples to train probes
 
 
 def load_data_with_languages(embeddings_path, labels_path, features_path):
     """
-    Load embeddings, labels, and metadata with language information.
-    Ensures all arrays are aligned.
+    loading embeddings, labels, and metadata with language information.
     """
+
     embeddings = np.load(embeddings_path)
     labels = np.load(labels_path)
     metadata = pd.read_csv(features_path)
@@ -27,28 +22,22 @@ def load_data_with_languages(embeddings_path, labels_path, features_path):
     print(f"Loaded labels: {labels.shape}")
     print(f"Loaded metadata: {len(metadata)} rows")
     
-    # Ensure alignment - filter metadata to match embeddings
+    # filtering to match embeddings
     n_embeddings = embeddings.shape[0]
     if len(metadata) > n_embeddings:
-        print(f"Warning: Metadata has {len(metadata)} rows, embeddings have {n_embeddings}. Truncating metadata.")
+        print(f"Warning: Metadata has {len(metadata)} rows, embeddings have {n_embeddings}")
         metadata = metadata.iloc[:n_embeddings].copy()
     elif len(metadata) < n_embeddings:
         print(f"Warning: Metadata has {len(metadata)} rows, embeddings have {n_embeddings}.")
-        # This shouldn't happen, but handle it
-        raise ValueError("Metadata has fewer rows than embeddings. Check data alignment.")
-    
-    # Verify shapes
-    assert embeddings.shape[0] == labels.shape[0] == len(metadata), \
-        f"Shape mismatch: embeddings={embeddings.shape[0]}, labels={labels.shape[0]}, metadata={len(metadata)}"
     
     return embeddings, labels, metadata
 
 
 def filter_languages_by_data_size(metadata: pd.DataFrame, min_examples: int = MIN_EXAMPLES_PER_LANG):
     """
-    Filter languages that have enough data for meaningful probe training.
-    Returns list of language codes and their counts.
+    Filter languages that have enough data for meaningful probe training
     """
+
     lang_counts = metadata['lang'].value_counts()
     valid_langs = lang_counts[lang_counts >= min_examples].index.tolist()
     
@@ -72,7 +61,7 @@ def main():
     print("Language-Specific Probe Analysis")
     print("="*80)
     
-    # Paths to data files
+    
     repo_root = Path(__file__).resolve().parent.parent
     data_dir = repo_root / "data"
     mbert_data_dir = data_dir / "mbert"
@@ -84,20 +73,18 @@ def main():
     test_embeddings_path = mbert_data_dir / "mbert_test_cls_embeddings.npy"
     test_labels_path = data_dir / "massive_test_labels.npy"
     test_features_path = data_dir / "massive_test_features.csv"
-    
-    # Load train data
+
     print("\nLoading train data...")
     train_embeddings, train_labels, train_metadata = load_data_with_languages(
         train_embeddings_path, train_labels_path, train_features_path
     )
     
-    # Load test data
     print("\nLoading test data...")
     test_embeddings, test_labels, test_metadata = load_data_with_languages(
         test_embeddings_path, test_labels_path, test_features_path
     )
     
-    # Filter languages with sufficient data
+    # filter per language w/ sufficient data
     print("\nFiltering languages by data size...")
     valid_langs, lang_counts = filter_languages_by_data_size(
         train_metadata, min_examples=MIN_EXAMPLES_PER_LANG
@@ -107,7 +94,7 @@ def main():
         print("No languages have sufficient data. Exiting.")
         return
     
-    # Train probes for each language
+    # training probes for each language
     print(f"\nTraining probes for {len(valid_langs)} languages...")
     all_results = train_language_probes(
         train_embeddings, train_labels, train_metadata,
@@ -115,25 +102,22 @@ def main():
         valid_langs, FEATURE_NAMES
     )
     
-    # Save raw results
     results_df = pd.DataFrame(all_results)
     results_path = mbert_data_dir / "language_probe_results.csv"
     results_df.to_csv(results_path, index=False)
     print(f"\nSaved results to {results_path}")
-    
-    # Analyze results
+
     print("\n" + "="*80)
     print("ANALYSIS")
     print("="*80)
     analysis_results = analyze_results(results_df, FEATURE_NAMES, output_dir=mbert_data_dir)
     
-    # Compare English vs non-English
+    #comparing english vs non englishs
     print("\n" + "="*80)
     print("ENGLISH vs NON-ENGLISH COMPARISON")
     print("="*80)
     comparison = compare_languages(results_df, FEATURE_NAMES, output_dir=mbert_data_dir)
     
-    # Generate visualizations
     print("\nGenerating visualizations...")
     output_dir = mbert_data_dir / "plots"
     output_dir.mkdir(parents=True, exist_ok=True)

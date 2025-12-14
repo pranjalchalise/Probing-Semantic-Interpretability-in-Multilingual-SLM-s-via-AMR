@@ -1,11 +1,3 @@
-# bert/train_probes_bert_en.py
-#
-# What this file does:
-# - Load BERT-base CLS embeddings (English only) + AMR feature labels
-# - Train a linear probe (LogisticRegression) for each (layer, feature) pair
-# - Evaluate on the English test set
-# - Save a results table and a nice layer × feature accuracy pivot
-
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -208,7 +200,6 @@ def main():
     out_stem = bert_data_dir / "probe_results"
     df_results = save_results(results, out_stem)
 
-    # Summary + pivot
     print_summary(df_results)
 
     print("\n" + "=" * 80)

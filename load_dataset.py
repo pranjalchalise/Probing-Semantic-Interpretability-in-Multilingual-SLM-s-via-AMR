@@ -1,7 +1,3 @@
-# Parse each block into (sentence, AMR graph, language)
-# Extract simple semantic features from the AMR (ARG0, ARG1, ARG2, neg, time)
-# Return / save everything as a pandas DataFrame
-
 import penman
 import pandas as pd
 from pathlib import Path
@@ -40,25 +36,22 @@ def load_amr_text(path: str):
     data = []
     path = Path(path)
 
-    # Try UTF-8 first, but handle encoding errors gracefully
     try:
         with path.open('r', encoding='utf-8', errors='replace') as f:
             content = f.read().strip()
     except UnicodeDecodeError:
-        # Fallback: try latin-1 which can decode any byte
+        # Fallback: try latin-1 
         with path.open('r', encoding='latin-1', errors='replace') as f:
             content = f.read().strip()
 
-    # Each entry is one example, separated by a blank line
     entries = content.split("\n\n")
 
     for entry in entries:
-        # Split into non-empty lines
         lines = [l for l in entry.strip().split("\n") if l.strip()]
         if not lines:
             continue
 
-        # Sentence line looks like: "# ::snt some sentence here"
+       
         snt_line = next((l for l in lines if l.startswith('# ::snt')), None)
         sentence = snt_line.replace('# ::snt', '').strip() if snt_line else None
 
@@ -173,10 +166,8 @@ if __name__ == "__main__":
     df_val = build_dataframe(amr_path_val)
     print(df_val.sample(10).to_string())
 
-    Save as CSV (no extra dependencies needed)
     save_dataframe(df_val, "./data/massive_val_features.csv", fmt="csv")
 
-    And also save as JSONL (one JSON object per line)
     save_dataframe_json(df, "./data/massive_val_features.jsonl")
 
     df_train = build_dataframe(amr_path_train)

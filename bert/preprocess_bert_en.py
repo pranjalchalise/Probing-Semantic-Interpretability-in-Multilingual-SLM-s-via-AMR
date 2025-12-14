@@ -1,15 +1,3 @@
-# bert/preprocess_bert_en.py
-#
-# Use BERT-base (English-only) to get CLS embeddings for English sentences.
-# Input:
-#   ../data/bert_en_train_features.csv
-#   ../data/bert_en_test_features.csv
-# Output:
-#   ../data/bert_en_train_cls_embeddings.npy
-#   ../data/bert_en_test_cls_embeddings.npy
-#   ../data/bert_en_train_labels.npy
-#   ../data/bert_en_test_labels.npy
-
 from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np

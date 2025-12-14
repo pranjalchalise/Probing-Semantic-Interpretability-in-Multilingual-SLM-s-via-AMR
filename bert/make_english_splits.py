@@ -1,8 +1,3 @@
-# bert/make_english_splits.py
-#
-# Take the full MASSIVE-* features CSVs and make English-only versions
-# for the BERT baseline.
-
 import pandas as pd
 from pathlib import Path
 

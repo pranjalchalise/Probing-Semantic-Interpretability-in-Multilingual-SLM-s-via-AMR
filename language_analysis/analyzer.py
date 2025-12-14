@@ -1,6 +1,3 @@
-# language_analysis/analyzer.py
-#
-# Analysis functions for language-specific probe results
 
 import pandas as pd
 import numpy as np

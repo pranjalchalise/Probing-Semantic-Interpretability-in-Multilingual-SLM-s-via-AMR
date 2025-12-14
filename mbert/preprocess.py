@@ -1,10 +1,3 @@
-# preprocess.py
-#
-# What this file does:
-# - Load a transformer model (e.g. mBERT) with hidden states turned on
-# - Take a list of sentences and pull out the CLS vector from every layer
-# - Save those CLS embeddings + the labels so we can train probes later
-
 from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np
@@ -19,14 +12,6 @@ def load_model(model_name: str = "bert-base-multilingual-cased"):
     """
     Load a HuggingFace encoder model and its tokenizer.
 
-    By default I’m using mBERT:
-        "bert-base-multilingual-cased"
-
-    But I can swap this string out for:
-        - "xlm-roberta-base"
-        - "bert-base-uncased"
-        - etc.
-
     I set output_hidden_states=True so that the model returns all layer outputs,
     not just the last layer.
     """
@@ -36,7 +21,7 @@ def load_model(model_name: str = "bert-base-multilingual-cased"):
         output_hidden_states=True
     ).to(device)
 
-    # I'm not fine-tuning the model here, just reading representations.
+    # I'm not fine-tuning the model here, just reading representations
     model.eval()
     return tokenizer, model
 
@@ -97,8 +82,6 @@ def get_cls_embeddings(
         # Stack these along a new "layer" dimension:
         # result: (batch_size, L, H)
         batch_emb = torch.stack(layer_cls, dim=1)
-
-        # Move to CPU so GPU memory doesn't slowly fill up across batches
         all_batches.append(batch_emb.cpu())
 
     # Combine all batches into one big tensor: (N, L, H)
@@ -114,7 +97,7 @@ def save_numpy(arr: np.ndarray, out_path: str):
     Save a NumPy array as a .npy file.
 
     Using .npy instead of JSON because:
-    - it’s smaller on disk
+    - it's smaller on the disk
     - much faster to load/save
     - and it keeps the exact dtypes/shapes without extra work
     """
