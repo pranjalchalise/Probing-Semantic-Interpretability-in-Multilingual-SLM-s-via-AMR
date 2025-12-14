@@ -15,7 +15,7 @@ FEATURE_NAMES = ["ARG0", "ARG1", "ARG2", "neg", "time"]
 MIN_EXAMPLES_PER_LANG = 100  # Minimum examples needed to train probes
 
 
-def load_data_with_languages(embeddings_path: str, labels_path: str, features_path: str):
+def load_data_with_languages(embeddings_path, labels_path, features_path):
     """
     Load embeddings, labels, and metadata with language information.
     Ensures all arrays are aligned.
@@ -74,13 +74,17 @@ def main():
     print("="*80)
     
     # Paths to XLM-R data files
-    train_embeddings_path = "./data/xlmr_train_cls_embeddings.npy"
-    train_labels_path = "./data/xlmr_train_labels.npy"
-    train_features_path = "./data/massive_train_features.csv"
+    repo_root = Path(__file__).resolve().parent.parent
+    data_dir = repo_root / "data"
+    xlmr_data_dir = data_dir / "xlmr"
     
-    test_embeddings_path = "./data/xlmr_test_cls_embeddings.npy"
-    test_labels_path = "./data/xlmr_test_labels.npy"
-    test_features_path = "./data/massive_test_features.csv"
+    train_embeddings_path = xlmr_data_dir / "xlmr_train_cls_embeddings.npy"
+    train_labels_path = xlmr_data_dir / "xlmr_train_labels.npy"
+    train_features_path = data_dir / "massive_train_features.csv"
+    
+    test_embeddings_path = xlmr_data_dir / "xlmr_test_cls_embeddings.npy"
+    test_labels_path = xlmr_data_dir / "xlmr_test_labels.npy"
+    test_features_path = data_dir / "massive_test_features.csv"
     
     # Load train data
     print("\nLoading XLM-R train data...")
@@ -114,7 +118,7 @@ def main():
     
     # Save raw results
     results_df = pd.DataFrame(all_results)
-    results_path = "./data/xlmr_language_probe_results.csv"
+    results_path = xlmr_data_dir / "language_probe_results.csv"
     results_df.to_csv(results_path, index=False)
     print(f"\nSaved results to {results_path}")
     
@@ -122,30 +126,18 @@ def main():
     print("\n" + "="*80)
     print("XLM-R ANALYSIS")
     print("="*80)
-    analysis_results = analyze_results(results_df, FEATURE_NAMES)
-    
-    # Save best layers with XLM-R prefix (note: analyze_results also saves to default path)
-    best_layers_df = analysis_results['best_layers']
-    best_layers_df.to_csv("./data/xlmr_best_layers_by_language.csv", index=False)
-    print(f"Saved XLM-R best layers to ./data/xlmr_best_layers_by_language.csv")
+    analysis_results = analyze_results(results_df, FEATURE_NAMES, output_dir=xlmr_data_dir)
     
     # Compare English vs non-English
     print("\n" + "="*80)
     print("XLM-R: ENGLISH vs NON-ENGLISH COMPARISON")
     print("="*80)
-    comparison = compare_languages(results_df, FEATURE_NAMES)
-    
-    # Save comparison with XLM-R prefix (note: compare_languages also saves to default path)
-    comparison.to_csv("./data/xlmr_english_vs_nonenglish_comparison.csv")
-    print(f"Saved XLM-R comparison to ./data/xlmr_english_vs_nonenglish_comparison.csv")
-    
-    # Note: The analyzer functions save to default paths which will contain XLM-R results
-    # The xlmr_ prefixed files above are the ones to use for XLM-R analysis
+    comparison = compare_languages(results_df, FEATURE_NAMES, output_dir=xlmr_data_dir)
     
     # Generate visualizations
     print("\nGenerating XLM-R visualizations...")
-    output_dir = Path("./data/xlmr_language_analysis_plots")
-    output_dir.mkdir(exist_ok=True)
+    output_dir = xlmr_data_dir / "plots"
+    output_dir.mkdir(parents=True, exist_ok=True)
     
     plot_results(results_df, FEATURE_NAMES, output_dir)
     create_summary_plots(results_df, comparison, FEATURE_NAMES, output_dir)

@@ -18,7 +18,7 @@ import json
 FEATURE_NAMES = ["ARG0", "ARG1", "ARG2", "neg", "time"]
 
 
-def load_data(embeddings_path: str, labels_path: str, features_path: str = None):
+def load_data(embeddings_path, labels_path, features_path=None):
     """
     Load embeddings, labels, and optionally metadata (like language info).
     
@@ -245,14 +245,18 @@ def main():
     Make sure to run load_dataset.py and preprocess.py for both train and test sets first!
     """
     # Paths to train data files
-    train_embeddings_path = "./data/mbert_train_cls_embeddings.npy"
-    train_labels_path = "./data/massive_train_labels.npy"
-    train_features_path = "./data/massive_train_features.csv"  # optional, for metadata
+    repo_root = Path(__file__).resolve().parent.parent
+    data_dir = repo_root / "data"
+    mbert_data_dir = data_dir / "mbert"
+    
+    train_embeddings_path = mbert_data_dir / "mbert_train_cls_embeddings.npy"
+    train_labels_path = data_dir / "massive_train_labels.npy"
+    train_features_path = data_dir / "massive_train_features.csv"  # optional, for metadata
     
     # Paths to test data files
-    test_embeddings_path = "./data/mbert_test_cls_embeddings.npy"
-    test_labels_path = "./data/massive_test_labels.npy"
-    test_features_path = "./data/massive_test_features.csv"  # optional, for metadata
+    test_embeddings_path = mbert_data_dir / "mbert_test_cls_embeddings.npy"
+    test_labels_path = data_dir / "massive_test_labels.npy"
+    test_features_path = data_dir / "massive_test_features.csv"  # optional, for metadata
     
     # Load train data
     print("Loading train data...")
@@ -274,7 +278,7 @@ def main():
     )
     
     # Save results
-    df_results = save_results(results, "./data/probe_results")
+    df_results = save_results(results, mbert_data_dir / "probe_results")
     
     # Print summary
     print_summary(df_results)
@@ -287,7 +291,7 @@ def main():
     print(pivot.round(3))
     
     # Save pivot table
-    pivot_path = "./data/probe_results_pivot.csv"
+    pivot_path = mbert_data_dir / "probe_results_pivot.csv"
     pivot.to_csv(pivot_path)
     print(f"\nSaved pivot table to {pivot_path}")
 

@@ -134,9 +134,13 @@ def example_run():
         sentence, lang, ARG0, ARG1, ARG2, neg, time
     """
 
+    repo_root = Path(__file__).resolve().parent.parent
+    data_dir = repo_root / "data"
+    mbert_data_dir = data_dir / "mbert"
+    mbert_data_dir.mkdir(parents=True, exist_ok=True)
+    
     #Did this for all three datasets separately
-    feature_path = "./data/massive_test_features.csv"
-    feature_path = Path(feature_path)
+    feature_path = data_dir / "massive_test_features.csv"
 
     if not feature_path.exists():
         raise FileNotFoundError(
@@ -171,11 +175,11 @@ def example_run():
     print("Embeddings shape:", embeddings.shape)  # should be (N, L, H)
 
     # Save CLS embeddings for later use in probe training
-    save_numpy(embeddings, "./data/mbert_test_cls_embeddings.npy")
+    save_numpy(embeddings, mbert_data_dir / "mbert_test_cls_embeddings.npy")
 
     # Save the AMR-based labels (ARG0, ARG1, ARG2, neg, time) as a separate array
     label_arr = df[["ARG0", "ARG1", "ARG2", "neg", "time"]].to_numpy()
-    save_numpy(label_arr, "./data/massive_test_labels.npy")
+    save_numpy(label_arr, data_dir / "massive_test_labels.npy")
 
 
 if __name__ == "__main__":

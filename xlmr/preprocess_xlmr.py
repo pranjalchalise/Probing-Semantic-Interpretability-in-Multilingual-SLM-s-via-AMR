@@ -75,13 +75,15 @@ def run_for_split(split: str):
     split: "train" or "test"
 
     Expects:
-      ./data/massive_<split>_features.csv
+      ../data/massive_<split>_features.csv
     Produces:
-      ./data/xlmr_<split>_cls_embeddings.npy
-      ./data/xlmr_<split>_labels.npy
+      ../data/xlmr/xlmr_<split>_cls_embeddings.npy
+      ../data/xlmr/xlmr_<split>_labels.npy
     """
     repo_root = Path(__file__).resolve().parent.parent
     data_dir = repo_root / "data"
+    xlmr_data_dir = data_dir / "xlmr"
+    xlmr_data_dir.mkdir(parents=True, exist_ok=True)
 
     feature_path = data_dir / f"massive_{split}_features.csv"
     if not feature_path.exists():
@@ -104,11 +106,11 @@ def run_for_split(split: str):
     )
     print(f"[{split}] XLM-R embeddings shape:", embeddings.shape)
 
-    save_numpy(embeddings, data_dir / f"xlmr_{split}_cls_embeddings.npy")
+    save_numpy(embeddings, xlmr_data_dir / f"xlmr_{split}_cls_embeddings.npy")
 
     # labels are the same AMR features as before
     label_arr = df[["ARG0", "ARG1", "ARG2", "neg", "time"]].to_numpy()
-    save_numpy(label_arr, data_dir / f"xlmr_{split}_labels.npy")
+    save_numpy(label_arr, xlmr_data_dir / f"xlmr_{split}_labels.npy")
 
 
 if __name__ == "__main__":

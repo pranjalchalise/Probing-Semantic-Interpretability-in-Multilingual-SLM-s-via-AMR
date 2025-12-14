@@ -73,15 +73,17 @@ def run_for_split(split: str):
     split: "train" or "test"
 
     Expects:
-      ../data/bert_en_<split>_features.csv
+      ../data/bert/bert_en_<split>_features.csv
     Produces:
-      ../data/bert_en_<split>cls_embeddings.npy
-      ../data/bert_en_<split>_labels.npy
+      ../data/bert/bert_en_<split>_cls_embeddings.npy
+      ../data/bert/bert_en_<split>_labels.npy
     """
     this_dir = Path(__file__).resolve().parent
     data_dir = this_dir.parent / "data"
+    bert_data_dir = data_dir / "bert"
+    bert_data_dir.mkdir(parents=True, exist_ok=True)
 
-    feature_path = data_dir / f"bert_en_{split}_features.csv"
+    feature_path = bert_data_dir / f"bert_en_{split}_features.csv"
     if not feature_path.exists():
         raise FileNotFoundError(f"Could not find {feature_path}")
 
@@ -100,10 +102,10 @@ def run_for_split(split: str):
     )
     print(f"[{split}] Embeddings shape:", embeddings.shape)
 
-    save_numpy(embeddings, data_dir / f"bert_en_{split}_cls_embeddings.npy")
+    save_numpy(embeddings, bert_data_dir / f"bert_en_{split}_cls_embeddings.npy")
 
     label_arr = df[["ARG0", "ARG1", "ARG2", "neg", "time"]].to_numpy()
-    save_numpy(label_arr, data_dir / f"bert_en_{split}_labels.npy")
+    save_numpy(label_arr, bert_data_dir / f"bert_en_{split}_labels.npy")
 
 
 if __name__ == "__main__":

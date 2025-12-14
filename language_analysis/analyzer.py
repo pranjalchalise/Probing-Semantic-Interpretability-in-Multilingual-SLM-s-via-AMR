@@ -39,10 +39,17 @@ def find_best_layer_per_language(results_df: pd.DataFrame, feature_names: list):
     return pd.DataFrame(best_layers)
 
 
-def analyze_results(results_df: pd.DataFrame, feature_names: list):
+def analyze_results(results_df: pd.DataFrame, feature_names: list, output_dir=None):
     """
     Main analysis function. Returns summary statistics.
+    
+    Args:
+        results_df: DataFrame with probe results
+        feature_names: list of feature names
+        output_dir: optional Path for saving results (if None, uses default)
     """
+    from pathlib import Path
+    
     best_layers_df = find_best_layer_per_language(results_df, feature_names)
     
     print("\nBest Layer per Language and Feature:")
@@ -55,8 +62,15 @@ def analyze_results(results_df: pd.DataFrame, feature_names: list):
                   f"- Accuracy: {row['best_accuracy']:.3f}")
     
     # Save best layers
-    best_layers_df.to_csv("./data/best_layers_by_language.csv", index=False)
-    print(f"\nSaved best layers to ./data/best_layers_by_language.csv")
+    if output_dir is None:
+        output_path = Path("./data/best_layers_by_language.csv")
+    else:
+        output_dir = Path(output_dir)
+        output_path = output_dir / "best_layers_by_language.csv"
+    
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    best_layers_df.to_csv(output_path, index=False)
+    print(f"\nSaved best layers to {output_path}")
     
     return {
         'best_layers': best_layers_df,
@@ -64,11 +78,18 @@ def analyze_results(results_df: pd.DataFrame, feature_names: list):
     }
 
 
-def compare_languages(results_df: pd.DataFrame, feature_names: list):
+def compare_languages(results_df: pd.DataFrame, feature_names: list, output_dir=None):
     """
     Compare English vs non-English languages.
     Tests hypothesis: Non-English languages encode semantic info in later layers.
+    
+    Args:
+        results_df: DataFrame with probe results
+        feature_names: list of feature names
+        output_dir: optional Path for saving results (if None, uses default)
     """
+    from pathlib import Path
+    
     best_layers_df = find_best_layer_per_language(results_df, feature_names)
     
     # Add English flag
@@ -109,8 +130,16 @@ def compare_languages(results_df: pd.DataFrame, feature_names: list):
     
     # Save comparison
     comparison_df = pd.DataFrame(comparison_results).T
-    comparison_df.to_csv("./data/english_vs_nonenglish_comparison.csv")
-    print(f"\nSaved comparison to ./data/english_vs_nonenglish_comparison.csv")
+    
+    if output_dir is None:
+        output_path = Path("./data/english_vs_nonenglish_comparison.csv")
+    else:
+        output_dir = Path(output_dir)
+        output_path = output_dir / "english_vs_nonenglish_comparison.csv"
+    
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    comparison_df.to_csv(output_path)
+    print(f"\nSaved comparison to {output_path}")
     
     return comparison_df
 

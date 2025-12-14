@@ -181,14 +181,15 @@ def main():
     # Work relative to this file so paths aren't annoying
     this_dir = Path(__file__).resolve().parent
     data_dir = this_dir.parent / "data"
+    bert_data_dir = data_dir / "bert"
 
-    train_emb_path = data_dir / "bert_en_train_cls_embeddings.npy"
-    train_lbl_path = data_dir / "bert_en_train_labels.npy"
-    train_feat_path = data_dir / "bert_en_train_features.csv"
+    train_emb_path = bert_data_dir / "bert_en_train_cls_embeddings.npy"
+    train_lbl_path = bert_data_dir / "bert_en_train_labels.npy"
+    train_feat_path = bert_data_dir / "bert_en_train_features.csv"
 
-    test_emb_path = data_dir / "bert_en_test_cls_embeddings.npy"
-    test_lbl_path = data_dir / "bert_en_test_labels.npy"
-    test_feat_path = data_dir / "bert_en_test_features.csv"
+    test_emb_path = bert_data_dir / "bert_en_test_cls_embeddings.npy"
+    test_lbl_path = bert_data_dir / "bert_en_test_labels.npy"
+    test_feat_path = bert_data_dir / "bert_en_test_features.csv"
 
     print("Loading BERT English train data...")
     train_emb, train_lbl, train_meta = load_data(
@@ -204,7 +205,7 @@ def main():
     results = train_all_probes(train_emb, train_lbl, test_emb, test_lbl)
 
     # Save
-    out_stem = data_dir / "bert_en_probe_results"
+    out_stem = bert_data_dir / "probe_results"
     df_results = save_results(results, out_stem)
 
     # Summary + pivot
@@ -216,7 +217,7 @@ def main():
     pivot = create_pivot(df_results)
     print(pivot.round(3))
 
-    pivot_path = data_dir / "bert_en_probe_results_pivot.csv"
+    pivot_path = bert_data_dir / "probe_results_pivot.csv"
     pivot.to_csv(pivot_path)
     print(f"\nSaved pivot table to {pivot_path}")
 

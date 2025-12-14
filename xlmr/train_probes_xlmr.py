@@ -152,13 +152,14 @@ def print_summary(df_results: pd.DataFrame):
 def main():
     repo_root = Path(__file__).resolve().parent.parent
     data_dir = repo_root / "data"
+    xlmr_data_dir = data_dir / "xlmr"
 
-    train_emb_path = data_dir / "xlmr_train_cls_embeddings.npy"
-    train_lbl_path = data_dir / "xlmr_train_labels.npy"
+    train_emb_path = xlmr_data_dir / "xlmr_train_cls_embeddings.npy"
+    train_lbl_path = xlmr_data_dir / "xlmr_train_labels.npy"
     train_feat_path = data_dir / "massive_train_features.csv"
 
-    test_emb_path = data_dir / "xlmr_test_cls_embeddings.npy"
-    test_lbl_path = data_dir / "xlmr_test_labels.npy"
+    test_emb_path = xlmr_data_dir / "xlmr_test_cls_embeddings.npy"
+    test_lbl_path = xlmr_data_dir / "xlmr_test_labels.npy"
     test_feat_path = data_dir / "massive_test_features.csv"
 
     print("Loading XLM-R train data...")
@@ -173,7 +174,7 @@ def main():
 
     results = train_all_probes(train_emb, train_lab, test_emb, test_lab)
 
-    df_results = save_results(results, data_dir / "xlmr_probe_results")
+    df_results = save_results(results, xlmr_data_dir / "probe_results")
 
     print_summary(df_results)
 
@@ -183,8 +184,8 @@ def main():
     pivot = create_pivot(df_results)
     print(pivot.round(3))
 
-    pivot.to_csv(data_dir / "xlmr_probe_results_pivot.csv")
-    print(f"\nSaved pivot table to {data_dir / 'xlmr_probe_results_pivot.csv'}")
+    pivot.to_csv(xlmr_data_dir / "probe_results_pivot.csv")
+    print(f"\nSaved pivot table to {xlmr_data_dir / 'probe_results_pivot.csv'}")
 
 
 if __name__ == "__main__":
